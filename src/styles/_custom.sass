@@ -1,19 +1,279 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: #fff
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/images/header/interno.svg") !important
+  background-repeat: no-repeat 
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.cs
+  overflow-y: hidden
 
-  100%
-    transform: translateY(0px)
+.titulo-principal__numero 
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: #FFBA5B
+
+.h1, .titulo-principal__numero span, .h6 
+  font-family: "Roboto", sans-serif
+  font-weight: 900
+  line-height: 1.2
+  color: #000
+
+.m-top
+  margin-top: -70px
+
+.m-top-1
+  margin-top: -40px
+
+.container-top
+  border-radius: 5px 5px 5px 5px
+
+.container-bottom 
+  border-radius: 0px 0px 35px 35px
+
+.color-text
+  color: #5B4794
+
+.color-text-1
+  color: #FF6D4B
+
+.color-text-2
+  color: #ECA037
+
+.color-custom-2
+  background-color: #F6F6F6
+  box-shadow: 1px 1px #707070
+
+.color-custom-3
+  background-color: #F6F6F6
+  box-shadow: 1px 1px #707070
+  margin-left: -45px !important
+  margin-top: 85px !important
+  @media (max-width: 412px)
+    margin-top: -10px
+    margin-left: 8px !important
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+  @media (max-width: 397px)
+    margin-top: -10px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+
+.color-custom-4
+  background-color: #5B4794
+
+.color-custom-5
+  background-color: #F6F6F6
+  box-shadow: 1px 1px #707070
+  margin-left: -45px !important
+  margin-top: 80px !important
+  @media (max-width: 412px)
+    margin-top: -10px
+    margin-left: 8px !important
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+  @media (max-width: 397px)
+    margin-top: -10px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+
+.color-custom-6
+	background-color: #C5BEDA
+	&::before
+		background-color: #FFF
+
+.color-custom-7
+	background-color: #FFCFC4
+	&::before
+		background-color: #C5BEDA
+
+.color-custom-8
+  background-color: #F6F6F6
+  box-shadow: 1px 1px #707070
+  margin-left: -45px !important
+  margin-top: -35px !important
+  @media (max-width: 412px)
+    margin-top: -10px
+    margin-left: 8px !important
+    background-repeat: no-repeat
+    background-size: cover
+    width: 145px
+  @media (max-width: 397px)
+    margin-top: -10px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+
+
+.fondo-1
+  background-image: url('../assets/curso/images/tema1/back_intro.svg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.fondo-2
+  background-image: url('../assets/curso/images/tema1/back_1.svg')
+  background-size: cover
+  background-repeat: no-repeat
+
+
+.jumbotron
+  background-color: #FFF1EE
+  border-radius: 20px
+
+.jumbotron-1
+  background-color: #FEE5DA
+  border-radius: 20px
+
+.jumbotron-2
+  background-color: #FED8C7
+  border-radius: 20px
+
+.jumbotron-3
+  background-color: #FFC5B2
+  border-radius: 20px
+
+.jumbotron-4
+  background-color: #FFB7A1
+  border-radius: 20px
+
+.jumbotron-5
+  background-color: #FFA98E
+  border-radius: 20px
+
+.jumbotron-6
+  background-color: #FF9C7D
+  border-radius: 20px
+
+.jumbotron-7
+  background-color: #F99373
+  border-radius: 20px
+
+.jumbotron-8
+  background-color: #FF815A
+  border-radius: 20px
+  
+.jumbotron-9
+  background-color: #FF7246
+  border-radius: 20px
+
+.jumbotron-10
+  background-color: #FFBA5B
+
+
+.jumbotron-11
+  background-color: #FFD79F
+
+.jumbotron-12
+  background-color: #FFBA5B
+
+.jumbotron-13
+  background-color: #FFCFC4
+
+.jumbotron-14
+  background-color: #FAE7CF
+  border-radius: 20px
+
+.jumbotron-15
+  background-color: #fff
+  border: solid 20px #5B4794 !important
+ 
+.tarjeta_grey-1
+  background-color: #FAE7CF
+  height: 300px !important
+  width: 320px !important
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.horizontal-scroll
+  align-items: stretch!important
+
+.mg-top-2
+  margin-bottom: -150px !important
+
+.mg-top-3
+  margin-bottom: 150px !important
+
+.titulo-segundo::after 
+  content: ''
+  display: block
+  height: 3px;
+  width: 140px
+  border-left: solid 50px
+    border-left-color: currentcolor
+  border-left-color: #FFBA5B
+  background-color: #e8e8e8
+
+
+.cajon
+  width: 720px
+  margin-top: 110px
+  @media (max-width: 412px)
+    margin-top: -10px
+    margin-left: 6px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+  @media (max-width: 397px)
+    margin-top: -10px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
+
+hr:not([size]) 
+  height: 2px
+  color: #FF6D4B
+
+hr 
+  border-color: #FF6D4B
+
+
+.aling
+  justify-content: center
+
+.m-right
+  right: -40% !important
+
+.tabla-a th 
+  border-color: #BFB7D5
+  font-weight: 700
+  text-align: center
+  font-size: 1.125em
+  
+td, th 
+  border: 1px solid #000
+  padding: 0.75em
+
+.th
+  background-color: #BFB7D5
+
+.th-1
+  background-color: #EEEEEE
+.th-2
+  background-color: #F6F6F6
+
+.back-tab
+  background-image: url('../assets/curso/images/tema2/back_tab.svg')
+  background-size: contain
+
+.tabs-a__tab
+  background-color: #E2E2E2
+
+.color-slyder-b
+  background-color: #F6F6F6
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+  top: 30px
+
+.tarjeta--azul 
+  background-color: #E8EEF3 
