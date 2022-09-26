@@ -351,8 +351,7 @@ export default {
       referencia:
         'VUCE. (2021). Servicios Ventanilla Única de Comercio Exterior.  VUCE.',
       tipo: 'Texto',
-      link:
-        'https://www.dian.gov.co/aduanas/aspectecmercancias/valoracion_de_mercancias/Temas_de_interes/Documents/Cartilla%20Gastos%20de%20Transporte.pdf ',
+      link: 'https://www.vuce.gov.co/',
     },
     {
       tema: 'Procolombia. (2021). Simulador de costos. Procolombia.',
