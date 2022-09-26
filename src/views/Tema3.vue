@@ -84,7 +84,7 @@
         .row.justify-content-center.align-items-center
           .col.lg-6.lg-0
             p.mb-3 A nivel nacional, el Ministerio de Transporte ha reglamentado la seguridad en el transporte ferroviario, en documentos de consulta que están publicados en la página oficial del MinTransporte, en dos volúmenes que incluyen las especificaciones técnicas y clasificación de las condiciones de seguridad en el transporte férreo de carga.
-            p.mb-0 La Organización de Aviación Civil Internacional (OACI), organismo especializado de la Organización de las Naciones Unidas (ONU), tiene como objetivo fomentar el desarrollo del transporte aéreo internacional en todos sus ámbitos, mediante la expedición de disposiciones relativas al control de la seguridad de la carga aérea. Estas disposiciones deben ser adoptadas por todos los países que forman parte de la OACI, como compromiso inmerso en el Convenio sobre Aviación Civil Internacional de 1944, mejor conocido como Convenio de Chicago.
+            p.mb-0 De la misma manera, el Departamento Nacional de Planeación (DNP) ha expedido los documentos relativos al Plan Maestro Ferroviario, el cual es un instrumento que contiene lineamientos para la reactivación del transporte férreo en el país, que incluye los cimientos para la regulación técnica y económica de este modo de transporte. 
           .col.lg-6.lg-0
             img(src='@/assets/curso/images/tema3/img_5.png'  alt='')
 

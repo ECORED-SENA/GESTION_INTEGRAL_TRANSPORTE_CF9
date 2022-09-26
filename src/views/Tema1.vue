@@ -18,7 +18,7 @@
         img(src='@/assets/curso/images/tema1/img_1.svg'  alt='')
 
 
-    p.mb-5 En las páginas del Sistema de Información sobre Comercio Exterior (CISE) y la página oficial de la Organización de los Estados Americanos (OEA), se pueden consultar los acuerdos multilaterales, acuerdos de libre comercio, uniones aduaneras, acuerdos macro, y acuerdos comerciales preferenciales, entre los países miembros de la OEA y el resto del mundo. 
+    p.mb-5 En las páginas del sistema de Información sobre Comercio Exterior (SICE) y la página oficial de la Organización de los Estados Americanos (OEA), se pueden consultar los acuerdos multilaterales, acuerdos de libre comercio, uniones aduaneras, acuerdos macro, y acuerdos comerciales preferenciales, entre los países miembros de la OEA y el resto del mundo. 
 
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-12.mb-3(data-aos="fade-left") 
@@ -108,10 +108,7 @@
             p Llevar contabilidad regular de sus negocios conforme lo indica la legislación.
           li 
             i.fas.fa-check
-            p Conservar, con arreglo a la ley, la correspondencia y demás documentos 
-          li 
-            i.fas.fa-check
-            p relacionados con el objeto social o el giro normal de sus obligaciones mercantiles.
+            p Conservar, con arreglo a la ley, la correspondencia y demás documentos relacionados con el objeto social o el giro normal de sus obligaciones mercantiles.
           li 
             i.fas.fa-check
             p Denunciar ante el juez competente la cesación en el pago corriente de sus obligaciones mercantiles, abstenerse de ejecutar actos de competencia desleal.
@@ -200,8 +197,14 @@
           span 
         h3 Marco legal para el transportador
 
+    p.mb-5 En el comercio internacional el contrato de compraventa está definido como:  
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        p.mb-0 un contrato de carácter internacional que no está sujeto a ningún requisito de forma por medio del cual el vendedor se obliga a entregar las mercancías, transmitir su propiedad y entregar cualesquiera documentos relacionados con ellas, en las condiciones establecidas por las partes, a cambio de un precio a cuyo pago se obliga el comprador (ONU, 2011).
+
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12.mb-3
+      .col-lg-12
           p.text-center.mb-5 Tanto el exportador como el importador se deben ceñir a tres tipos de responsabilidades y obligaciones:
 
 
@@ -301,6 +304,7 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 1
           span Resumen obligaciones del exportador / importador
+            
     .row.align-items-center.justify-content-center.p-4
       .col-lg-4
         .jumbotron-10
@@ -308,7 +312,10 @@
     .row.align-items-center.justify-content-center.p-4
       .col-lg-12
         img.mb-3(src='@/assets/curso/images/tema1/fig_3.png'  alt='')(data-aos="zoom-in-right")
-    
+    .row.align-items-center.justify-content-star.mb-5
+      .col-lg-4
+        figcaption 
+          p.mb-0 Nota. Tomada de Nalww.mx (s.f.) 
     p.mb-3 Ahora, se resumen los aspectos de la compraventa internacional que regulan los Incoterms son:
 
     .row.justify-content-center.align-items-center.mb-3
@@ -389,8 +396,7 @@
         .jumbotron-12.p-4
           .row.justify-content-center.align-items-between
             .col-lg-10.mb-3(data-aos="fade-left") 
-              p.text-center.mb-0 Estado observador en la Conferencia de La Haya de Derecho Internacional Privado (Chdip), y en particular en el trabajo relativo a las convenciones creadas en el seno de esta organización y que Colombia ha ratificado (HCCH, 2021). 
-
+              p.text-center.mb-0 “El vendedor si no estuviere obligado a contratar un seguro de transporte, deberá proporcionar al comprador, a petición de este, toda la información disponible que sea necesaria para contratar ese seguro” (ONU, 2011).
 
     Separador
 
@@ -530,6 +536,12 @@
             .tarjeta.tarjeta_grey-1                  
               .p-4
                 p.mb-0 Ataques cibernéticos y riesgos de tecnología de la información.
+
+          .tarjeta-avatar
+            img(src='@/assets/curso/images/tema1/ico_3.svg' alt='imagen relacionada' style='width:150px')
+            .tarjeta.tarjeta_grey-1                  
+              .p-4
+                p.mb-0 Pérdidas relacionadas directa o indirectamente con el asbesto.
 
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema1/ico_18.svg' alt='imagen relacionada' style='width:150px')

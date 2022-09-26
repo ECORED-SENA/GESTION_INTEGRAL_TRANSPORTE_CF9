@@ -59,7 +59,7 @@
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN")
-            p.mb-0 Corresponde al acrónimo de las palabras del inglés Global Trade Item Number, que significa número de artículo comercial global o número global de artículo comercial que corresponde a un único número de un artículo comercial, está desarrollado por la empresa privada llamada mundialmente GS1. El GTIN es un identificador único y reconocido internacionalmente para un producto específico.
+            p.mb-0 Corresponde al acrónimo de las palabras del inglés <i>Global Trade Item Number</i>, que significa número de artículo comercial global o número global de artículo comercial que corresponde a un único número de un artículo comercial, está desarrollado por la empresa privada llamada mundialmente GS1. El GTIN es un identificador único y reconocido internacionalmente para un producto específico.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
                 img(src='@/assets/curso/images/tema2/img_3.svg'  alt='')
@@ -81,22 +81,22 @@
                 img(src='@/assets/curso/images/tema2/img_5.svg'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN-8")
-            p.mb-0 Este código se usa en casos especiales de falta de espacio para poder colocar los 13 dígitos del GTIN-13.
+            p.mb-3 Este código se usa en casos especiales de falta de espacio para poder colocar los 13 dígitos del GTIN-13.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
-                img(src='@/assets/curso/images/tema2/img_6.svg'  alt='')
+                img(src='@/assets/curso/images/tema2/img_6_1.svg'  alt='')
           
           .tarjeta.back-tab.px-5.py-4(titulo="UPC-A")
             p.mb-0 Tiene la misma función que el GTIN-13, pero es usado en EE. UU. y Canadá y su forma es parecida y solo posee 8 dígitos. El primer número, que normalmente es un 1 o un 7, es un número de sistema e indica que tiene un tamaño y un peso determinado no variable. El uso principal es la identificación de unidades de expedición.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
-                img(src='@/assets/curso/images/tema2/img_7.svg'  alt='')
+                img(src='@/assets/curso/images/tema2/img_7_1.png'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN-14")
             p.mb-0 Con este código profundizamos en la cadena logística. Este identifica el producto no unitario de consumo, sino unitario de unidad comercial para la distribución. Este código facilita identificar cajas de un mismo producto pero con diferentes unidades en su interior, es un código que facilita su lectura cuando está impreso en cartón corrugado.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
-                img(src='@/assets/curso/images/tema2/img_8.svg'  alt='')
+                img(src='@/assets/curso/images/tema2/img_8_1.svg'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="AI")
             p.mb-0 Se denomina identificador de aplicación y es un campo de dos o más caracteres al principio de una cadena de elementos. Los IA son prefijos que identifican el significado y el formato del campo de datos que se encuentra a continuación del IA; permite la representación de los datos de longitud variable y hace posible la codificación de información adicional en un solo símbolo de códigos de barra. Esto se denomina concatenación. Ejemplo: 
@@ -131,6 +131,7 @@
                         td.text-center  11 (2)
                         td Fecha de producción (AAMMDD)
                         td.text-center  N2 + N6
+            p.text-center.mb-0 Imagen tomada de GS1. (2020). Guía de Identificación. https://www.gs1co.org/Portals/0/Contenido/Descargables/Gu%C3%ADa%20de%20identificaci%C3%B3n%20GS1%20Colombia.pdf?timestamp=1597330740389 
 
 
           .tarjeta.back-tab.px-5.py-4(titulo="GLN")
@@ -146,7 +147,7 @@
     Separador
 
     #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+      .h4 2.1   Procesos de seguimientos  
     
     p.mb-5 Para lograr un proceso de seguimiento de las mercancías o cargas es requisito indispensable que se puedan identificar internacionalmente. Existe un sistema de identificación que es un lenguaje mundial de comunicación mercantil; a saber: 
 
@@ -198,7 +199,7 @@
         .jumbotron-12.p-4
           .row.justify-content-center.align-items-between
             .col-lg-10.mb-3(data-aos="fade-left") 
-              p.text-center.mb-0 BASC: corresponde al acrónimo de Business Alliance for Secure Commerce, que significa Alianza Empresarial para un Comercio Seguro, es una alianza empresarial internacional de derecho privado que promueve un comercio seguro en cooperación con gobiernos y organismos internacionales, teniendo como objetivo mejorar la calidad de las operaciones de comercio, la confidencialidad, la responsabilidad, la ética y la honestidad. Esta entidad privada busca generar una cultura de la seguridad en la cadena logística, implementando sistemas de gestión mediante estándares de seguridad.
+              p.text-center.mb-0 BASC: corresponde al acrónimo de <i>Business Alliance for Secure Commerce,</i> que significa Alianza Empresarial para un Comercio Seguro, es una alianza empresarial internacional de derecho privado que promueve un comercio seguro en cooperación con gobiernos y organismos internacionales, teniendo como objetivo mejorar la calidad de las operaciones de comercio, la confidencialidad, la responsabilidad, la ética y la honestidad. Esta entidad privada busca generar una cultura de la seguridad en la cadena logística, implementando sistemas de gestión mediante estándares de seguridad.
 
     .row.justify-content-center.d-none.d-lg-block
       .row.justify-content-center.align-items-center.mb-5
@@ -221,6 +222,11 @@
 
     p.mb-5 Dentro de los sistemas digitales de gestión de la información que se manejan actualmente en los procesos de importación y exportación de una manera simulada al sector real, se tienen los siguientes:
 
+    Separador
+
+    #t_2_3.titulo-segundo
+      .h4 2.3   Sistemas de información  
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")
         .tabla-a.color-secundario.mb-5 
@@ -231,9 +237,9 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_4.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                <td colspan="2"> <b>MUISCA</b>, es un Modelo Único de Ingresos, Servicio y Control Automatizado. Según consideraciones de la Dirección de Impuestos y Aduanas Nacionales (DIAN), este modelo de gestión permite el cumplimiento de la misión, visión y objetivos estratégicos de la entidad, y conduce al mejoramiento del recaudo, la gestión y posicionamiento de esta.</td>  
+                <td colspan="2"> <b>MUISCA</b>: es un Modelo Único de Ingresos, Servicio y Control Automatizado. Según consideraciones de la Dirección de Impuestos y Aduanas Nacionales (DIAN), este modelo de gestión permite el cumplimiento de la misión, visión y objetivos estratégicos de la entidad, y conduce al mejoramiento del recaudo, la gestión y posicionamiento de esta.</td>  
                 td 
-                 a.anexo.mb-4.mb-lg-0(href="https://www.dian.gov.co/" target="_blank")
+                 a.anexo.mb-4.mb-lg-0(href="https://muisca.dian.gov.co/WebArquitectura/DefLogin.faces" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -244,7 +250,7 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_5.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                <td colspan="2"> A través de la Coordinación del Servicio de Valoración Aduanera y la Subdirección de Gestión Técnica Aduanera, DIAN, expidió una cartilla denominada Gastos de transporte en la determinación del valor en aduana, que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia. En ella se desarrollan todos los aspectos relativos a los gastos de transporte y conexos al mismo, establecidos por la Organización Mundial del Comercio (OMC) y la reglamentación nacional de aduanas. Se puede consultar la cartilla en: </td>  
+                <td colspan="2"> A través de la Coordinación del Servicio de Valoración Aduanera y la Subdirección de Gestión Técnica Aduanera, DIAN, expidió una cartilla denominada Gastos de transporte en la determinación del valor en aduana, que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia. En ella se desarrollan todos los aspectos relativos a los <b>gastos de transporte y conexos al mismo, establecidos por la Organización Mundial del Comercio (OMC) y la reglamentación nacional de aduanas.</b> Se puede consultar la cartilla en: </td>  
                 td 
                  a.anexo.mb-4.mb-lg-0(href="https://cutt.ly/HmimjZp" target="_blank")
                     .anexo__icono
@@ -283,9 +289,9 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_8.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                <td colspan="2"> <b>Simulador</b> de Costos de Exportación: desde la página de Procolombia, se tiene una herramienta llamada Simulador de costos de exportación, en donde se permite calcular, el costo de la exportación desde el origen hasta el destino de la carga. En esa misma página hay un acceso a mapas de oportunidades, en donde se puede descubrir cuáles son las mejores oportunidades de expansión internacional de negocios, organizadas por sectores y países. Para acceder a la página, ingresar en: </td>  
+                <td colspan="2"> <b>Simulador de Costos de Exportación:</b> desde la página de Procolombia, se tiene una herramienta llamada Simulador de costos de exportación, en donde se permite calcular, el costo de la exportación desde el origen hasta el destino de la carga. En esa misma página hay un acceso a mapas de oportunidades, en donde se puede descubrir cuáles son las mejores oportunidades de expansión internacional de negocios, organizadas por sectores y países. Para acceder a la página, ingresar en: </td>  
                 td 
-                 a.anexo.mb-4.mb-lg-0(href="https://cutt.ly/jmiQC12" target="_blank")
+                 a.anexo.mb-4.mb-lg-0(href="https://connectamericas.com/es/estimadora#!/app/search" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -295,7 +301,7 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_9.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                <td colspan="2"> <b>Zonas francas:</b> las son áreas geográficas delimitadas del territorio nacional, en donde se desarrollan actividades industriales de bienes y de servicios o actividades comerciales, bajo una normatividad especial en materia tributaria, aduanera y de comercio exterior. Se puede tener acceso a esta página desde aquí:  </td>  
+                <td colspan="2"> <b>Zonas francas:</b> son áreas geográficas delimitadas del territorio nacional, en donde se desarrollan actividades industriales de bienes y de servicios o actividades comerciales, bajo una normatividad especial en materia tributaria, aduanera y de comercio exterior. Se puede tener acceso a esta página desde aquí:  </td>  
                 td 
                  a.anexo.mb-4.mb-lg-0(href="http://zonasfrancas.mincit.gov.co/" target="_blank")
                     .anexo__icono
@@ -343,19 +349,19 @@ export default {
         imagen: require('@/assets/curso/images/tema2/img_12.svg'),
       },
       {
-        titulo: 'BIC:',
+        titulo: 'BIC',
         texto:
-          'Es el código marítimo de identificación de contenedores expedido por la Bureau International des Containers et du Transprt Intermodal. Los contenedores incluyen 11 dígitos, siendo los 4 primeros dígitos, letras. Las tres primeras identifican al propietario del contenedor y son asignadas por el BIC. La siguiente letra puede ser: <br>  U que identifica contenedores.J equipo auxiliar o Z que indica cómo se transporta por carretera. <br> Los siguientes seis números son provenientes de un algoritmo que asigna numeraciones a cada letra del alfabeto según la tabla que se muestra. Como curiosidad no se incluyen los números repetidos, tales como el 11, el 22 ni el 33. ',
+          'Es el código marítimo de identificación de contenedores expedido por la <i>Bureau International des Containers et du Transport Intermodal.</i> Los contenedores incluyen 11 dígitos, siendo los 4 primeros dígitos, letras. Las tres primeras identifican al propietario del contenedor y son asignadas por el BIC. La siguiente letra puede ser: <br>  U que identifica contenedores.J equipo auxiliar o Z que indica cómo se transporta por carretera. <br> Los siguientes seis números son provenientes de un algoritmo que asigna numeraciones a cada letra del alfabeto según la tabla que se muestra. Como curiosidad no se incluyen los números repetidos, tales como el 11, el 22 ni el 33. ',
         imagen: require('@/assets/curso/images/tema2/img_13.png'),
       },
       {
-        titulo: 'IMDG:',
+        titulo: 'IMDG',
         texto:
           'De la Organización Marítima Internacional (IMO), es el Código Marítimo Internacional de Mercancías Peligrosas. El Convenio para la Seguridad de la Vida Humana en el Mar, acrónimo de “Safety Of Life At Sea (SOLAS)” de 1960 recomendó que los gobiernos adoptarán un código internacional uniforme para el transporte de mercancías peligrosas por vía marítima. Para estos fines, las mercancías peligrosas se encuentran agrupadas en diferentes clases, y algunas de éstas se subdividen a su vez para definir y describir las características y propiedades de las sustancias, materiales y artículos que corresponden a cada clase o división.',
         imagen: require('@/assets/curso/images/tema2/img_14.svg'),
       },
       {
-        titulo: 'SGA:',
+        titulo: 'SGA',
         texto:
           'Es el Sistema Globalmente Armonizado de Clasificación y Etiquetado de Productos Químicos, el cual ofrece un conjunto de criterios armonizados sobre el peligro de las sustancias químicas. Estos criterios se utilizan en las etiquetas y las fichas de datos de seguridad para informar de los peligros.',
         imagen: require('@/assets/curso/images/tema2/img_15.svg'),

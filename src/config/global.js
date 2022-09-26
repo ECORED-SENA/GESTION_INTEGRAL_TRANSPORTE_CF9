@@ -208,6 +208,10 @@ export default {
         'https://www.iso.org/obp/ui/#iso:std:iso:9000:ed-4:v1:es.López. D. (2016). Incoterms.',
     },
     {
+      referencia: 'López. D. (2016). Incoterm',
+      link: 'https://economipedia.com/definiciones/incoterms.html',
+    },
+    {
       referencia: 'Nalww.mx. (s.f.). Guía sobre los Incoterms.',
       link: 'https://www.nalww.mx/es/blog/2018/08/guia-sobre-los-INCOTERMS',
     },
@@ -283,8 +287,9 @@ export default {
   ],
   complementario: [
     {
-      tema: 'GS1 Colombia. (s.f). Guía de identificación GS1. GS1 Colombia.',
-      referencia: 'Guía GS1',
+      tema: 'Guía GS1',
+      referencia:
+        'GS1 Colombia. (s.f). Guía de identificación GS1. GS1 Colombia.',
       tipo: 'Guía',
       link:
         'https://www.gs1co.org/Portals/0/Contenido/Guia_de_Identificacion_GS1.pdf',
@@ -353,8 +358,7 @@ export default {
       tema: 'Procolombia. (2021). Simulador de costos. Procolombia.',
       referencia: 'Procolombia. (2021). Simulador de costos. Procolombia..',
       tipo: 'Simulador web',
-      link:
-        'http://simuladordecostos.procolombia.co/dfi/master.html#/autenticacion',
+      link: 'https://connectamericas.com/es/estimadora#!/app/search',
     },
     {
       tema:
@@ -374,7 +378,7 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'María Camila García Santamaría',
         cargo: 'Líder del equipo',
         centro: 'Dirección General',
       },
@@ -388,7 +392,7 @@ export default {
       },
       {
         nombre: 'Régulo Castro Barón',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Complejo Tecnológico Agroindustrial, Pecuario y Turístico – CTAPT – Regional Antioquia',
       },
@@ -422,7 +426,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Marcela Alarcon Granados',
+        nombre: 'Marcela Alarcón Granados',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -451,13 +455,13 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Maria Eugenia mejía López',
+        nombre: 'Maria Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Maria Eugenia Mejía Lopez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

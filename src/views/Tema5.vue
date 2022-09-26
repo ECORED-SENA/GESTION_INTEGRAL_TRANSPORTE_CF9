@@ -43,7 +43,18 @@
       .col-lg-6.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema5/img_1.png'  alt='')
 
-    
+      p.mb-5 Por su parte, las debilidades tienen que ver con:
+      ul.lista-ul--color
+        li 
+          i.fas.fa-check
+          p Altas inversiones en equipos de tecnología de captura de datos.
+        li 
+          i.fas.fa-check
+          p Incremento en la capacitación constante de los operadores para mejorar la automatización de los procesos.
+        li
+          i.fas.fa-check
+          p Unificación de programas y tecnologías para automatización de la operación
+
     Separador
 
     #t_5_1.titulo-segundo

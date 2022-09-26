@@ -20,13 +20,13 @@
     Separador
 
     #t_4_1.titulo-segundo
-      .h4 4.1   Ciclo de pedido
+      .h4 4.1 Tecnologías para estar en contacto con el operador de la flota
 
-    p.mb-3 Una de las principalísimas funciones de los encargados de las operaciones de transporte es tener conocimiento exacto del lugar, sitio, condiciones y características en que se encuentran sus envíos. Es importante estar en contacto permanente con los operadores de los equipos de transporte o la flota.
+    p.mb-3 Una de las principales funciones de los encargados de las operaciones de transporte es tener conocimiento exacto del lugar, sitio, condiciones y características en que se encuentran sus envíos. Es importante estar en contacto permanente con los operadores de los equipos de transporte o la flota.
 
     p.mb-5 Hay muchas tecnologías que favorecen la obtención de datos de localización, estado de posiciones y movimientos de los equipos. Veamos algunos ejemplos: 
 
-    SlyderB.mb-5.color-slyder-b.px-5.py-5(:datos="datosSlyder")  
+    SlyderB.mb-5.color-slyder-b.px-5.p-5(:datos="datosSlyder")  
 
 
     Separador
@@ -41,7 +41,7 @@
           .row.justify-content-center.align-items-center
             .col.lg-5.lg-0
               .jumbotron-15.p-4
-                p.my-5 Por esta razón es de vital importancia la comunicación y la información entre el exportador con el plan de ruta seleccionado, a fin de detectar el tránsito de los bienes en su ruta y el recibo por el destinatario.
+                p.my-3 El plan de ruta se desprende de los rutogramas preestablecidos o publicados por las organizaciones y en ellos se definen, desde los tiempos de despacho, tránsito, arribo y entrega, hasta los inconvenientes que puedan presentarse en sectores críticos de las vías. Pueden estar incluidos planes de ruta entre orígenes y destinos o planes entre puntos críticos.
             .col.lg-5.lg-0
               img(src='@/assets/curso/images/tema4/img_7.png'  alt='')
 
@@ -65,14 +65,14 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'VesselFinder',
+        titulo: '<i>VesselFinder</i>',
         texto:
           'Se dedica a proporcionar datos en tiempo real sobre las posiciones y movimientos de más de 200.000 embarcaciones todos los días, utilizando una gran red de receptores y satélites AIS terrestres en todo el mundo',
 
         imagen: require('@/assets/curso/images/tema4/img_2.png'),
       },
       {
-        titulo: 'MarineTraffic',
+        titulo: '<i>MarineTraffic</i>',
         texto:
           'Es un proveedor de rastreo de barcos e inteligencia marítima. Monitorean los movimientos de los buques apoyados por bases costeras, complementados por receptores satelitales.',
         imagen: require('@/assets/curso/images/tema4/img_3.png'),
@@ -86,7 +86,7 @@ export default {
       {
         titulo: 'Monitoreo satelital del transporte de carga por carretera',
         texto:
-          'En el transporte de carga por carretera, el Ministerio de Transporte de Colombia, ha desplegado una aplicación llamada Monitoreo satelital del transporte de carga por carretera, en el Registro Nacional de Despachos de Carga (RNDC), servicio en línea de GPS, el cual opera como sistema de información que permite a cada empresa de transporte habilitada, la expedición de los manifiestos de carga. ',
+          'En el transporte de carga por carretera, el Ministerio de Transporte de Colombia, ha desplegado una aplicación llamada monitoreo satelital del transporte de carga por carretera, en el Registro Nacional de Despachos de Carga (RNDC), servicio en línea de GPS, el cual opera como sistema de información que permite a cada empresa de transporte habilitada, la expedición de los manifiestos de carga. ',
         imagen: require('@/assets/curso/images/tema4/img_5.png'),
       },
       {
