@@ -250,7 +250,7 @@
                   .row.justify-content-center.align-items-center.mb-5
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_5.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                <td colspan="2"> A través de la Coordinación del Servicio de Valoración Aduanera y la Subdirección de Gestión Técnica Aduanera, DIAN, expidió una cartilla denominada Gastos de transporte en la determinación del valor en aduana, que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia. En ella se desarrollan todos los aspectos relativos a los <b>gastos de transporte y conexos al mismo, establecidos por la Organización Mundial del Comercio (OMC) y la reglamentación nacional de aduanas.</b> Se puede consultar la cartilla en: </td>  
+                <td colspan="2"> A través de la Coordinación del Servicio de Valoración Aduanera y la Subdirección de Gestión Técnica Aduanera, DIAN, expidió una cartilla denominada <b> Gastos de transporte en la determinación del valor en aduana, </b> que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia. En ella se desarrollan todos los aspectos relativos a los gastos de transporte y conexos al mismo, establecidos por la Organización Mundial del Comercio (OMC) y la reglamentación nacional de aduanas. Se puede consultar la cartilla en: </td>  
                 td 
                  a.anexo.mb-4.mb-lg-0(href="https://cutt.ly/HmimjZp" target="_blank")
                     .anexo__icono
@@ -357,7 +357,7 @@ export default {
       {
         titulo: 'IMDG',
         texto:
-          'De la Organización Marítima Internacional (IMO), es el Código Marítimo Internacional de Mercancías Peligrosas. El Convenio para la Seguridad de la Vida Humana en el Mar, acrónimo de “Safety Of Life At Sea (SOLAS)” de 1960 recomendó que los gobiernos adoptarán un código internacional uniforme para el transporte de mercancías peligrosas por vía marítima. Para estos fines, las mercancías peligrosas se encuentran agrupadas en diferentes clases, y algunas de éstas se subdividen a su vez para definir y describir las características y propiedades de las sustancias, materiales y artículos que corresponden a cada clase o división.',
+          'De la Organización Marítima Internacional (IMO), es el Código Marítimo Internacional de Mercancías Peligrosas. El Convenio para la Seguridad de la Vida Humana en el Mar, acrónimo de <i>“Safety Of Life At Sea</i> (SOLAS)” de 1960 recomendó que los gobiernos adoptarán un código internacional uniforme para el transporte de mercancías peligrosas por vía marítima. Para estos fines, las mercancías peligrosas se encuentran agrupadas en diferentes clases, y algunas de éstas se subdividen a su vez para definir y describir las características y propiedades de las sustancias, materiales y artículos que corresponden a cada clase o división.',
         imagen: require('@/assets/curso/images/tema2/img_14.svg'),
       },
       {

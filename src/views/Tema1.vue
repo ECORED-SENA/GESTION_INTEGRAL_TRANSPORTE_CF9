@@ -411,7 +411,7 @@
         .jumbotron-13.p-3
           .row.justify-content-center.align-items-center
             .col-lg-10.mb-3(data-aos="fade-left") 
-              p.mb-0.mt-2 Estado observador en la Conferencia de La Haya de Derecho Internacional Privado (Chdip), y en particular en el trabajo relativo a las convenciones creadas en el seno de esta organización y que Colombia ha ratificado (HCCH, 2021).
+              p.mb-0.mt-2 “El vendedor si no estuviere obligado a contratar un seguro de transporte, deberá proporcionar al comprador, a petición de este, toda la información disponible que sea necesaria para contratar ese seguro” (ONU, 2011).
             .row.justify-content-end.align-items-center.mb-0
               .col-lg-2
                 p - (ONU, 2011).
