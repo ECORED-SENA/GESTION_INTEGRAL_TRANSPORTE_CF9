@@ -294,7 +294,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8275uw4WepI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       figcaption Video: Leyenda del video
 
     p.mb-3 En la siguiente figura se presenta un resumen de las diferentes combinaciones de las obligaciones del exportador / importador.
