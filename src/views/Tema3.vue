@@ -20,7 +20,7 @@
     Separador
 
     #t_3_1.titulo-segundo
-      .h4 3.1  Seguridad en el transporte terrestre y relación con PESV
+      .h2 3.1  Seguridad en el transporte terrestre y relación con PESV
 
     p.mb-5 A partir del año 2010, la Asamblea General de la Organización de las Naciones Unidas (ONU), instó a sus países miembros a adoptar medidas encaminadas a disminuir los accidentes de tránsito, ya que el número de muertes por esta causa a nivel mundial estaba por el orden de 1,3 millones de personas al año. De este análisis se adoptó el denominado “Decenio de acción para la Seguridad Vial 2011 – 2020”, y en agosto de 2021 se proclamó el segundo “Decenio de Acción para la Seguridad Vial 2021 – 2030”. 
 
@@ -36,7 +36,7 @@
     Separador
 
     #t_3_2.titulo-segundo
-      .h4 3.2   Seguridad en el transporte marítimo
+      .h2 3.2   Seguridad en el transporte marítimo
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -56,7 +56,7 @@
     Separador
 
     #t_3_3.titulo-segundo
-      .h4 3.3   Seguridad en el transporte aéreo
+      .h2 3.3   Seguridad en el transporte aéreo
 
     p.mb-5 A nivel internacional se tienen reglamentaciones expedidas por el Parlamento Europeo, que tienen que ver con la seguridad del transporte aéreo de mercancías. 
 
@@ -76,7 +76,7 @@
     Separador
 
     #t_3_4.titulo-segundo
-      .h4 3.4   Seguridad en el transporte ferroviario
+      .h2 3.4   Seguridad en el transporte ferroviario
 
     
     .row.justify-content-center.align-items-center.mb-5.d-none.d-lg-block

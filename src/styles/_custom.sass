@@ -1,6 +1,81 @@
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: #fff
 
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top:  50%
+    right: 48%
+  &-2
+    animation: float4 13s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 20%
+  &-3
+    animation: float3 28s ease-in-out infinite alternate
+    position: absolute
+    top: 15%
+    right: 80%
+  &-4
+    animation: float3 15s ease-in-out infinite alternate
+    position: absolute
+    top: 28%
+    right: 75%
+  &-5
+    animation: float5 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 18%
+    right: 28%
+  &-6
+    animation: float2 3s ease-in-out infinite alternate
+    position: absolute
+    top: 30%
+    right: 8%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  50%
+    transform: translateY(0px)
+  100%
+    transform: rotate(-10deg)      
+
+@keyframes  float2 
+
+	0% 
+		transform: translate(0, 0)
+	
+
+	100% 
+		transform: translate(-50px, 50px) 
+
+
+@keyframes float3 
+	0% 
+		transform: rotate(0deg) translateX(-50px) rotate(0deg)
+	
+
+	100% 
+		transform: rotate(360deg) translateX(-50px) rotate(-360deg) 
+
+@keyframes float4 
+	0% 
+		transform: rotate(0deg) translateX(-50px) rotate(0deg);
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-50px) rotate(-180deg)     
+
+@keyframes float5
+  0%
+    transform: translateX(20px)
+
+  70%
+    transform: translateX(0px) 
+
+
 .banner-interno__fondo
   background-image: url("../assets/curso/images/header/interno.svg") !important
   background-repeat: no-repeat 
@@ -45,11 +120,12 @@
 
 .color-custom-2
   background-color: #F6F6F6
-  box-shadow: 1px 1px #707070
+  box-shadow: 2px 1px 4px 1px #cdcdcd
+
 
 .color-custom-3
   background-color: #F6F6F6
-  box-shadow: 1px 1px #707070
+  box-shadow: 2px 1px 4px 1px #cdcdcd
   margin-left: -45px !important
   margin-top: 85px !important
   @media (max-width: 412px)
@@ -69,7 +145,6 @@
 
 .color-custom-5
   background-color: #F6F6F6
-  box-shadow: 1px 1px #707070
   margin-left: -45px !important
   margin-top: 80px !important
   @media (max-width: 412px)
@@ -95,7 +170,7 @@
 		background-color: #C5BEDA
 
 .color-custom-8
-  background-color: #F6F6F6
+  background-color:  #73E8DC 
   box-shadow: 1px 1px #707070
   margin-left: -45px !important
   margin-top: -35px !important
@@ -130,6 +205,7 @@
 .jumbotron-1
   background-color: #FEE5DA
   border-radius: 20px
+  height: 170px !important
 
 .jumbotron-2
   background-color: #FED8C7
@@ -138,6 +214,7 @@
 .jumbotron-3
   background-color: #FFC5B2
   border-radius: 20px
+  height: 170px !important
 
 .jumbotron-4
   background-color: #FFB7A1
@@ -183,6 +260,33 @@
 .jumbotron-15
   background-color: #fff
   border: solid 20px #5B4794 !important
+
+.jumbotron-16
+  background-color: #FF6D4B
+  border-top-left-radius:  40px !important
+  border-top-right-radius:  40px !important
+  border-bottom-left-radius:  40px !important
+  border-bottom-right-radius:  40px !important
+  @media (max-width: 992px)
+    border-top-left-radius:  40px !important
+    border-top-right-radius:  40px !important
+    border-bottom-left-radius:  40px !important
+    border-bottom-right-radius:  40px !important
+  @media (max-width: 768px)
+    border-top-left-radius:  70px !important
+    border-top-right-radius:  70px !important
+    border-bottom-left-radius:  40px !important
+    border-bottom-right-radius:  40px !important
+  @media (max-width: 576px)
+    border-top-left-radius:  40px !important
+    border-top-right-radius:  40px !important
+    border-bottom-left-radius:  40px !important
+    border-bottom-right-radius:  40px !important
+  @media (max-width: 412px)
+    border-top-left-radius:  40px !important
+    border-top-right-radius:  40px !important
+
+
  
 .tarjeta_grey-1
   background-color: #FAE7CF
@@ -234,7 +338,30 @@ hr:not([size])
 
 hr 
   border-color: #FF6D4B
+  margin-top: -10px
+  margin-bottom: 10px
 
+.lista-ol--cuadro__vineta 
+  background-color: #FFCCC0
+  display: inline-block
+  min-width: 24px
+  height: 24px
+  color: #fff
+  position: relative
+  margin-right: 8px
+
+.img-infografica__item__dot, .img-infografica-b__item__dot 
+  position: relative
+  width: 168%
+  padding-top: 185%
+
+.img-infografica__item__numero, .img-infografica-b__item__numero 
+  position: absolute
+  left: 70%
+  top: 50%
+  transform: translate(-50%, -50%)
+  font-weight: 700
+  line-height: 1em
 
 .aling
   justify-content: center

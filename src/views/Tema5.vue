@@ -58,7 +58,7 @@
     Separador
 
     #t_5_1.titulo-segundo
-      .h4 5.1   Diagnóstico
+      .h2 5.1   Diagnóstico
 
     p.mb-5 En esta logística del transporte es necesario reconsiderar la meta final de la operación invocada, la cual está dispersa en la cadena logística que se puede resumir de la siguiente manera: 
 
@@ -78,7 +78,7 @@
     Separador
 
     #t_5_2.titulo-segundo
-      .h4 5.2   Tipos y técnicas de informes
+      .h2 5.2   Tipos y técnicas de informes
 
     p.mb-5 Una vez diagnosticados los inconvenientes detectados en cada uno de los procesos, es momento de elaborar el informe de la gestión del transporte desarrollada, para lo cual se podrá requerir tres tipos de informes.
 

@@ -20,7 +20,7 @@
     Separador
 
     #t_4_1.titulo-segundo
-      .h4 4.1 Tecnologías para estar en contacto con el operador de la flota
+      .h2 4.1 Tecnologías para estar en contacto con el operador de la flota
 
     p.mb-3 Una de las principales funciones de los encargados de las operaciones de transporte es tener conocimiento exacto del lugar, sitio, condiciones y características en que se encuentran sus envíos. Es importante estar en contacto permanente con los operadores de los equipos de transporte o la flota.
 
@@ -32,7 +32,7 @@
     Separador
 
     #t_4_2.titulo-segundo
-      .h4 4.2   Planes de rutas e intercomunicaciones
+      .h2 4.2   Planes de rutas e intercomunicaciones
 
     
     .row.justify-content-center.align-items-star.d-none.d-lg-block

@@ -147,7 +147,7 @@
     Separador
 
     #t_2_1.titulo-segundo
-      .h4 2.1   Procesos de seguimientos  
+      .h2 2.1   Procesos de seguimientos  
     
     p.mb-5 Para lograr un proceso de seguimiento de las mercancías o cargas es requisito indispensable que se puedan identificar internacionalmente. Existe un sistema de identificación que es un lenguaje mundial de comunicación mercantil; a saber: 
 
@@ -159,7 +159,7 @@
     Separador
 
     #t_2_2.titulo-segundo
-      .h4 2.2   Trazabilidad y estándares de calidad
+      .h2 2.2   Trazabilidad y estándares de calidad
 
     p.mb-3 La   trazabilidad se puede realizar de tres formas: hacia atrás, interna o hacia adelante. 
 
@@ -225,7 +225,7 @@
     Separador
 
     #t_2_3.titulo-segundo
-      .h4 2.3   Sistemas de información  
+      .h2 2.3   Sistemas de información  
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")

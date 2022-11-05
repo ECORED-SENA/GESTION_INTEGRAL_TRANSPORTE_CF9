@@ -12,10 +12,10 @@
         .cajon.color-custom-2.p-4.mb-3 
           p.mb-3 Se llama globalización a todo el andamiaje que involucra el comercio de bienes y servicios a nivel mundial. Lo anterior significa que se han tenido que expedir y acordar una serie de reglas, normas y comportamientos, para que la distribución y la entrega de los productos a los consumidores se realicen de manera estándar y regularizada. En múltiples ocasiones se ve y escucha que dos o más #[span.color-text países han llegado a un acuerdo de compartir sus mercados con otros países.]
 
-          p.mb-0 <b>A esto se le llama Tratados de Libre Comercio</b>
+          p.mb-0 #[span.color-text A esto se le llama Tratados de Libre Comercio]
 
-      .col-lg-5.mb-5(data-aos="fade-left") 
-        img(src='@/assets/curso/images/tema1/img_1.svg'  alt='')
+      .col-lg-4.mb-5(data-aos="fade-left") 
+        img.mx-3.mt-5(src='@/assets/curso/images/tema1/img_1.svg'  alt='')
 
 
     p.mb-5 En las páginas del sistema de Información sobre Comercio Exterior (SICE) y la página oficial de la Organización de los Estados Americanos (OEA), se pueden consultar los acuerdos multilaterales, acuerdos de libre comercio, uniones aduaneras, acuerdos macro, y acuerdos comerciales preferenciales, entre los países miembros de la OEA y el resto del mundo. 
@@ -38,44 +38,54 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")     
       .col-lg-2.lg-0.mb-0   
         .jumbotron.p-5   
-          p.text-center.my-4 CAN (1973)
+          .row.justify-content-center.align-items-center
+            p.text-center.my-4 #[b CAN (1973)]
       
       .col-lg-2.lg-0.mb-0
-        .jumbotron-1.p-5  
-          p.text-center.mb-4 Panamá y Chile (1993)
+        .jumbotron-1.p-4  
+          .row.justify-content-center.align-items-center
+            p.text-center.mt-4 #[b Panamá y Chile (1993)]
 
       .col-lg-2.lg-0
         .jumbotron-2.p-5.mb-0   
-          p.text-center.mb-0 Caricom y México (1995)
+          .row.justify-content-center.align-items-center
+            p.text-center.mb-0 #[b Caricom y México (1995)]
 
       .col-lg-2.lg-0.mb-0
-        .jumbotron-3.p-5 
-          p.text-center.mb-5 Cuba (2001)
+        .jumbotron-3.p-5
+          .row.justify-content-center.align-items-center
+            p.text-center.py-2 #[b Cuba (2001)]
 
       .col-lg-2.lg-0.mb-0
         .jumbotron-4.p-5
-          p.text-center.mb-4 Mercosur (2005)
+          .row.justify-content-center.align-items-center
+            p.text-center.mb-4 #[b Mercosur (2005)]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-lg-2.lg-0.mb-0
         .jumbotron-5.p-5  
-          p.text-center.mb-0 Triángulo Norte (2009)
+          .row.justify-content-center.align-items-center
+            p.text-center.mb-0 #[b Triángulo Norte (2009)]
 
       .col-lg-2.lg-0.mb-0
         .jumbotron-6.p-5  
-          p.text-center.mb-0 EFTA y Canadá (2011)
+          .row.justify-content-center.align-items-center
+            p.text-center.mb-0 #[b EFTA y Canadá (2011)]
 
       .col-lg-2.lg-0.mb-0
-        .jumbotron-7.p-5   
-          p.text-center.mb-0 E.U. y Venezuela (2012)
+        .jumbotron-7.p-5 
+          .row.justify-content-center.align-items-center  
+            p.text-center.mb-0 #[b E.U. y Venezuela (2012)]
 
       .col-lg-2.lg-0.mb-0
         .jumbotron-8.p-5  
-          p.text-center.mb-0 Unión Europea (2013)
+          .row.justify-content-center.align-items-center
+            p.text-center.mb-0 #[b Unión Europea (2013)]
      
       .col-lg-2.lg-0.mb-0
         .jumbotron-9.p-4
-          p.text-center.mb-5 Corea, Costa Rica y Alianza Pacífico (2016) 
+          .row.justify-content-center.align-items-center
+            p.text-center.py-3 #[b Corea, Costa Rica y Alianza Pacífico (2016)]
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-6(data-aos="fade-right")  
@@ -131,7 +141,7 @@
                     span Descargar
                     .row
                       .col-auto
-                        img(src="@/assets/curso/images/tema1/Ico_download_1.svg",  alt='', style="width:10px; display:block; margin:auto 0 ;")
+                        img.mx-2(src="@/assets/curso/images/tema1/Ico_download_1.svg",  alt='', style="width:10px; display:block; margin:auto 0 ;")
 
     p.mb-3 A nivel internacional hay unas obligaciones del vendedor y del comprador, o sea del exportador y del importador, las cuales incluyen tres factores: #[span.color-text 1) las obligaciones de las partes, 2) los riesgos de la entrega y 3) los costos del cumplimiento estricto del giro normal de los negocios.]
 
@@ -145,31 +155,31 @@
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            | A1- B1 Obligaciones generales del exportador / importador
+            p.mb-0 A1- B1 Obligaciones generales del exportador / importador
           hr
           li 
             i.fas.fa-check
-            | A2- B2 Formalidades de entrega / recibo de mercancía
+            p.mb-0  A2- B2 Formalidades de entrega / recibo de mercancía
           hr
           li 
             i.fas.fa-check
-            | A3- B3 Responsabilidades de riesgos
+            p.mb-0  A3- B3 Responsabilidades de riesgos
           hr
           li 
             i.fas.fa-check
-            | A4- B4 Entrega / recibo 
+            p.mb-0  A4- B4 Entrega / recibo 
           hr
           li 
             i.fas.fa-check
-            | A5- B5 Cubrimiento de seguros
+            p.mb-0  A5- B5 Cubrimiento de seguros
           hr
           li 
             i.fas.fa-check
-            | A6- B6 Documentación de entrega / recibo/ transporte
+            p.mb-0  A6- B6 Documentación de entrega / recibo/ transporte
           hr
           li 
             i.fas.fa-check
-            | A7- B7 Notificaciones al exportador / importador
+            p.mb-0  A7- B7 Notificaciones al exportador / importador
 
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=U2n3w7GU1wY&ab_channel=MincomercioColombia" target="_blank")
           .anexo__icono
@@ -189,13 +199,13 @@
       .col-lg-2.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/ico_2.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mb-0 Un contrato de carácter internacional que no está sujeto a ningún requisito de forma por medio del cual el vendedor se obliga a entregar las mercancías, transmitir su propiedad y entregar cualesquiera documentos relacionados con ellas, en las condiciones establecidas por las partes, a cambio de un precio a cuyo pago se obliga el comprador (ONU, 2011).
+        p.mt-3 Un contrato de carácter internacional que no está sujeto a ningún requisito de forma por medio del cual el vendedor se obliga a entregar las mercancías, transmitir su propiedad y entregar cualesquiera documentos relacionados con ellas, en las condiciones establecidas por las partes, a cambio de un precio a cuyo pago se obliga el comprador (ONU, 2011).
    
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta
           span 
-        h3 Marco legal para el transportador
+        h4 Marco legal para el transportador
 
     p.mb-5 En el comercio internacional el contrato de compraventa está definido como:  
 
@@ -207,17 +217,29 @@
       .col-lg-12
           p.text-center.mb-5 Tanto el exportador como el importador se deben ceñir a tres tipos de responsabilidades y obligaciones:
 
-
     .row.justify-content-center.align-items-center.mb-5     
-      .col-lg-4.lg-0.mb-0
-        img(src='@/assets/curso/images/tema1/tj_1.png'  alt='').mb-3
-  
-      .col-lg-4.lg-0.mb-0
-        img(src='@/assets/curso/images/tema1/tj_2.png'  alt='').mb-3
+      .col-6.col-lg-4.lg-0.mb-0
+        .jumbotron-16.mb-3
+          img(src='@/assets/curso/images/tema1/img_tj1.png'  alt='').mb-0
+          .row.justify-content-center.align-items-center
+            .py-3
+              p.text-center.py-0.m-top-1 <b>Documentación para la mercancía (transportista).</b>
+      
+      .col-6.col-lg-4.lg-0.mb-0
+        .jumbotron-16.mb-3
+          img(src='@/assets/curso/images/tema1/img_tj2.png'   alt='', style="width:400px; display:block; margin:auto 0 ;").mb-0
+          .row.justify-content-center.align-items-center
+            .py-3 
+              p.text-center.py-0.m-top-1 <b>Riesgos asociados al transporte (seguros).</b>
 
-      .col-lg-4.lg-0
-        .col-lg-4.lg-0.mb-0
-        img(src='@/assets/curso/images/tema1/tj_3.png'  alt='')
+      .col-6.col-lg-4.lg-0.mb-0
+        .jumbotron-16
+          img(src='@/assets/curso/images/tema1/img_tj3.png'  alt='').mb-0
+          .row.justify-content-center.align-items-center
+            .py-3 
+              p.text-center.py-0.m-top-1 <b>Costos en que incurrirá (pagos , precios o fletes).</b>
+
+   
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
     p.mb-5 En el siguiente esquema se pueden visualizar estos tres tipos de responsabilidades.
     .row.justify-content-center.align-items-ceneter.mb-3
@@ -262,10 +284,10 @@
               img(src='@/assets/curso/images/tema1/info.svg', alt='Texto que describa la imagen')
        
 
-          .tarjeta.color-custom-5.p-3(x="89%" y="23%" numero="+")
+          .tarjeta.color-custom-5.p-3(x="90%" y="23%" numero="+")
             p Tiene un equipo de apoyo a la Convención de las Naciones Unidas sobre los Contratos de Compraventa Internacional de Mercaderías, su finalidad es prever un régimen moderno, para los contratos.
 
-          .tarjeta.color-custom-5.p-3(x="10%" y="25%" numero="+")
+          .tarjeta.color-custom-5.p-3(x="11%" y="25%" numero="+")
             p Es el principal ente jurídico del sistema de las Naciones Unidas en el ámbito del derecho mercantil internacional. 
 
           .tarjeta.color-custom-5.p-3(x="24%" y="65%" numero="+")
@@ -279,14 +301,14 @@
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-8(data-aos="fade")
-        .jumbotron-11.p-4
+        .jumbotron-11.p-3
           .row.justify-content-center.align-items-between
             .col-lg-8.mb-3(data-aos="fade-left") 
               p.mb-0 #[span.color-text-1 Incoterms:] son reglas que se utilizan en los contratos de compraventa internacional (López, 2016). Estas formalidades están expresadas en el catálogo de términos de negociación internacional, denominados Incoterms, del inglés:
             .col-lg-2.aling(data-aos="fade-right")
-              p.mb-0 #[span.color-text-1 IN]ternational
-              p.mb-0 #[span.color-text-1 CO]mmercial
-              p.mb-0 #[span.color-text-1 TERMS]
+              p.mb-0 <b>#[span.color-text-1 IN]ternational</b>
+              p.mb-0 <b>#[span.color-text-1 CO]mmercial</b>
+              p.mb-0 <b>#[span.color-text-1 TERMS]</b>
 
     p.mb-3 Traducido al español significa Términos de Comercio Internacional y es una marca registrada de la Cámara de Comercio Internacional.
 
