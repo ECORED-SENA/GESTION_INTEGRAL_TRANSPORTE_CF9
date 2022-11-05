@@ -14,7 +14,7 @@
 
           p.mb-0 #[span.color-text A esto se le llama Tratados de Libre Comercio]
 
-      .col-lg-4.mb-5(data-aos="fade-left") 
+      .col-10.col-lg-4.mb-5(data-aos="fade-left") 
         img.mx-3.mt-5(src='@/assets/curso/images/tema1/img_1.svg'  alt='')
 
 
@@ -25,7 +25,7 @@
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='')
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-4.mb-3(data-aos="fade-left") 
+      .col-6.col-lg-4.mb-3(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_3.png'  alt='')
       .col-lg-6(data-aos="fade-right")
         .cajon.color-custom-3.p-4 
@@ -36,53 +36,53 @@
     p.mb-5 A nivel nacional, desde el Ministerio de Comercio, Industria y Turismo se ha manifestado que al año 2018, Colombia cuenta con 16 acuerdos comerciales (incluyen tratados de libre comercio y acuerdos de alcance parcial): 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")     
-      .col-lg-2.lg-0.mb-0   
+      .col-6.col-lg-2.lg-0.mb-3   
         .jumbotron.p-5   
           .row.justify-content-center.align-items-center
             p.text-center.my-4 #[b CAN (1973)]
       
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-1.p-4  
           .row.justify-content-center.align-items-center
             p.text-center.mt-4 #[b Panamá y Chile (1993)]
 
-      .col-lg-2.lg-0
-        .jumbotron-2.p-5.mb-0   
+      .col-6.col-lg-2.lg-0.mb-3
+        .jumbotron-2.p-5   
           .row.justify-content-center.align-items-center
-            p.text-center.mb-0 #[b Caricom y México (1995)]
+            p.text-center.mb-2 #[b Caricom y México (1995)]
 
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-3.p-5
           .row.justify-content-center.align-items-center
             p.text-center.py-2 #[b Cuba (2001)]
 
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-4.p-5
           .row.justify-content-center.align-items-center
             p.text-center.mb-4 #[b Mercosur (2005)]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-5.p-5  
           .row.justify-content-center.align-items-center
             p.text-center.mb-0 #[b Triángulo Norte (2009)]
 
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-6.p-5  
           .row.justify-content-center.align-items-center
             p.text-center.mb-0 #[b EFTA y Canadá (2011)]
 
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-7.p-5 
           .row.justify-content-center.align-items-center  
             p.text-center.mb-0 #[b E.U. y Venezuela (2012)]
 
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-8.p-5  
           .row.justify-content-center.align-items-center
             p.text-center.mb-0 #[b Unión Europea (2013)]
      
-      .col-lg-2.lg-0.mb-0
+      .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-9.p-4
           .row.justify-content-center.align-items-center
             p.text-center.py-3 #[b Corea, Costa Rica y Alianza Pacífico (2016)]
@@ -133,7 +133,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-md-2
-                  img.mx-5(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img.mx-3(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
                   p.mb-1.text-white.mx-3 Los comerciantes tienen unos derechos, deberes y responsabilidades que incluyen 19 ítems, todos ellos enmarcados en actos de comercio lícitos y que están regulados por el registro mercantil; se tendrán como mercantiles todos los actos de los comerciantes relacionados con actividades o empresas de comercio, y los ejecutados por cualquier persona lo que asegura el cumplimiento de las obligaciones comerciales. A continuación, se puede acceder al Código de Comercio de Colombia en formato PDF. 
                 .col-md-2
@@ -196,7 +196,7 @@
     p.mb-5 En el comercio internacional el contrato de compraventa está definido como:
 
     .row.justify-content-center.align-items-star.mb-3
-      .col-lg-2.mb-5(data-aos="fade-left") 
+      .col-6.col-lg-2.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/ico_2.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
         p.mt-3 Un contrato de carácter internacional que no está sujeto a ningún requisito de forma por medio del cual el vendedor se obliga a entregar las mercancías, transmitir su propiedad y entregar cualesquiera documentos relacionados con ellas, en las condiciones establecidas por las partes, a cambio de un precio a cuyo pago se obliga el comprador (ONU, 2011).
@@ -217,27 +217,28 @@
       .col-lg-12
           p.text-center.mb-5 Tanto el exportador como el importador se deben ceñir a tres tipos de responsabilidades y obligaciones:
 
-    .row.justify-content-center.align-items-center.mb-5     
-      .col-6.col-lg-4.lg-0.mb-0
-        .jumbotron-16.mb-3
-          img(src='@/assets/curso/images/tema1/img_tj1.png'  alt='').mb-0
-          .row.justify-content-center.align-items-center
-            .py-3
-              p.text-center.py-0.m-top-1 <b>Documentación para la mercancía (transportista).</b>
-      
-      .col-6.col-lg-4.lg-0.mb-0
-        .jumbotron-16.mb-3
-          img(src='@/assets/curso/images/tema1/img_tj2.png'   alt='', style="width:400px; display:block; margin:auto 0 ;").mb-0
-          .row.justify-content-center.align-items-center
-            .py-3 
-              p.text-center.py-0.m-top-1 <b>Riesgos asociados al transporte (seguros).</b>
-
-      .col-6.col-lg-4.lg-0.mb-0
-        .jumbotron-16
-          img(src='@/assets/curso/images/tema1/img_tj3.png'  alt='').mb-0
-          .row.justify-content-center.align-items-center
-            .py-3 
-              p.text-center.py-0.m-top-1 <b>Costos en que incurrirá (pagos , precios o fletes).</b>
+    .row.justify-content-center.mb-5(data-aos="fade-up-right")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema1/img_tj1.png")
+          .crd_hover_txt--body.text-center
+            p.mb-0 <b>Documentación para la mercancía (transportista).</b>
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema1/img_tj2.png")
+          .crd_hover_txt--body.text-center
+            p.mb-0 <b>Riesgos asociados al transporte (seguros).</b>
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema1/img_tj3.png")
+          .crd_hover_txt--body.text-center
+            p.mb-0 <b>Costos en que incurrirá (pagos , precios o fletes).</b>
 
    
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
@@ -251,7 +252,7 @@
     .row.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-4.mb-3(data-aos="fade-left") 
+          .col-8.col-lg-4.mb-3(data-aos="fade-left") 
             img(src='@/assets/curso/images/tema1/img_7.svg'  alt='')
           .col-lg-6(data-aos="fade-right")
             .cajon.color-custom-5.p-5
@@ -361,12 +362,14 @@
 
     p.mb-5 Finalmente, es preciso indicar que la evolución de la normatividad de los Incoterms, se realiza mediante la actualización de los mismos cada 10 años, siendo vigentes los Incoterms de 2010 y 2020. A renglón seguido se indican los principales cambios: 
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema1/tj_4.svg", alt= "")
-          .tarjeta-up__content.bg-1
-            h4 4  Categorías
+    .row.justify-content-center.mb-5(data-aos="fade-up-right")                                   
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt-1
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema1/tj4_1.svg")
+          .crd_hover_txt--body-1
+            h4.text-center.mb-5 4  Categorías
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -380,12 +383,13 @@
               li 
                 i.fas.fa-check 
                 p.mb-0  <b>D→</b> Mercancía entregada en: #[span.color-text-2 D]AF; #[span.color-text-2 D]ES; #[span.color-text-2 D]EQ; #[span.color-text-2 D]DU; #[span.color-text-2 D]DP
-
-      .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema1/tj_5.svg", alt= "")
-          .tarjeta-up__content.bg-1
-            h4 2 Clases
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt-1
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema1/tj5_1.svg")
+          .crd_hover_txt--body-1
+            h4.text-center.mb-5  2 Clases
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -393,12 +397,13 @@
               li 
                 i.fas.fa-check
                 p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
-
-      .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema1/tj_6.svg", alt= "")
-          .tarjeta-up__content.bg-1
-            h4 2 Clases
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt-1
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/images/tema1/tj6_1.svg")
+          .crd_hover_txt--body-1
+            h4.text-center.mb-5  2 Clases
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -579,10 +584,10 @@
       .h2 1.4   Instructivo para trazabilidad
 
     .row.justify-content-center.align-items-star.mb-3
-      .col-lg-2.mb-5(data-aos="fade-left") 
+      .col-6.col-lg-2.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_11.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mb-0 La trazabilidad es un conjunto de procedimientos, medidas y actuaciones que dan a conocer la trayectoria histórica de productos, materias primas o mercancías en la cadena de suministro, a fin de poder localizar el producto, en cualquier tiempo dentro de la cadena logística, con el propósito de poder inmovilizar o retirar cualquier mercancía en caso de que surjan problemas de seguridad.
+        p.mt-3 La trazabilidad es un conjunto de procedimientos, medidas y actuaciones que dan a conocer la trayectoria histórica de productos, materias primas o mercancías en la cadena de suministro, a fin de poder localizar el producto, en cualquier tiempo dentro de la cadena logística, con el propósito de poder inmovilizar o retirar cualquier mercancía en caso de que surjan problemas de seguridad.
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-10(data-aos="fade")
@@ -639,7 +644,7 @@ export default {
     bottom: -100%
     width: 100%
     height: 100%
-    padding: 2rem
+    padding: 1rem
     transition: bottom 0.7s ease-in-out
     &.bg-1
         background: #FAE7CF

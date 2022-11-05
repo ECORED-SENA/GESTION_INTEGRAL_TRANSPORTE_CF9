@@ -8,37 +8,37 @@
       h1 Fortalezas y debilidades del proceso de trazabilidad de la operación
 
     
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-star.mb-3
       .col-lg-6(data-aos="fade-right")  
         p.mb-3 Los beneficios de un sistema de trazabilidad en la operación del transporte pueden desglosarse de la siguiente manera: 
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            p Manejar y normalizar la información a compartir con las áreas del proceso logístico.
+            p.mb-0 Manejar y normalizar la información a compartir con las áreas del proceso logístico.
           li 
             i.fas.fa-check
-            p Disminuir la digitación de datos.
+            p.mb-0 Disminuir la digitación de datos.
           li
             i.fas.fa-check
-            p Mejorar la visibilidad de los procesos.
+            p.mb-0 Mejorar la visibilidad de los procesos.
           li 
             i.fas.fa-check
-            p Calcular los indicadores de gestión.
+            p.mb-0 Calcular los indicadores de gestión.
           li 
             i.fas.fa-check
-            p Incrementar el uso de herramientas tecnológicas.
+            p.mb-0 Incrementar el uso de herramientas tecnológicas.
           li 
             i.fas.fa-check
-            p Mayor agilidad y eficiencia en la búsqueda y asignación de vehículos.
+            p.mb-0 Mayor agilidad y eficiencia en la búsqueda y asignación de vehículos.
           li 
             i.fas.fa-check
-            p Reducción de costos por eficiencia en reducción de tiempos.
+            p.mb-0 Reducción de costos por eficiencia en reducción de tiempos.
           li 
             i.fas.fa-check
-            p La intercomunicación entre los centros de monitoreo, control y operación reduce los costos generales.
+            p.mb-0 La intercomunicación entre los centros de monitoreo, control y operación reduce los costos generales.
           li 
             i.fas.fa-check
-            p Con la trazabilidad la operación del transporte se automatiza y se genera mayor seguridad en los procesos a su cargo.
+            p.mb-0 Con la trazabilidad la operación del transporte se automatiza y se genera mayor seguridad en los procesos a su cargo.
          
       .col-lg-6.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema5/img_1.png'  alt='')

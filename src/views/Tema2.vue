@@ -12,8 +12,8 @@
         .cajon.color-custom-2.p-5.mb-3
           p.mb-0 Todos los acuerdos comerciales se basan en el conocimiento de la información y tal como se manifiesta en la frase “La información es poder”, o “la información es conocimiento”, –atribuida por algunos a Francis Bacon, otros a Hobbes, y otros más a Bill Gates–, lo cierto es que en este mundo globalizado no solo basta con tener información, sino saber cómo utilizarla para mejorar la operatividad de la organización.
 
-      .col-lg-5.mb-5(data-aos="fade-left") 
-        img(src='@/assets/curso/images/tema2/img_1.svg'  alt='')
+      .col-8.col-lg-4.mb-5(data-aos="fade-left") 
+        img.mt-5(src='@/assets/curso/images/tema2/img_1.svg'  alt='')
     
     p.mb-3 Para lograr un adecuado conocimiento de la información, no solo se debe rastrear la misma, sino saber qué hacer con ella. Por eso, es necesario tener conocimiento del flujo de información dentro de la organización. 
 
@@ -47,7 +47,7 @@
     
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-4.mb-3(data-aos="fade-left") 
-        img(src='@/assets/curso/images/tema2/img_2.svg'  alt='')
+        img(src='@/assets/curso/images/tema2/img_2.svg'  alt='').mb-5
       .col-lg-6(data-aos="fade-right")
         .cajon.color-custom-8.p-5
           p.mb-0 Se pueden crear tantos tipos de flujos como se deseen conocer en la cadena logística, por ejemplo, flujo de compras, de proveedores, de recibo de mercancías, de almacén, de despacho, de transporte, de entrega y de venta. Pueden ser muchos más, según la necesidad que se quiera conocer sobre un sector de la cadena logística o de sus eslabones. De todos los flujos, se obtienen datos que se consignan y se analizan para tomar acciones frente a esos registros de información o ejecutar proyecciones con sus tendencias.
@@ -59,12 +59,14 @@
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN")
-            p.mb-0 Corresponde al acrónimo de las palabras del inglés <i>Global Trade Item Number</i>, que significa número de artículo comercial global o número global de artículo comercial que corresponde a un único número de un artículo comercial, está desarrollado por la empresa privada llamada mundialmente GS1. El GTIN es un identificador único y reconocido internacionalmente para un producto específico.
+            h4 GTIN
+            p.mb-3 Corresponde al acrónimo de las palabras del inglés <i>Global Trade Item Number</i>, que significa número de artículo comercial global o número global de artículo comercial que corresponde a un único número de un artículo comercial, está desarrollado por la empresa privada llamada mundialmente GS1. El GTIN es un identificador único y reconocido internacionalmente para un producto específico.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
                 img(src='@/assets/curso/images/tema2/img_3.svg'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN-13")
+            h4 GTIN-13
             p.mb-0 Es un identificador mundial de mercancías o artículos comerciales, el cual posee 13 dígitos distribuidos así: 
             p.mb-0 Las dos o tres primeras cifras, corresponden al país de origen. Colombia tiene las cifras 700.
             p.mb-3 Las siguientes cifras que pueden ser de cinco a ocho dígitos e indican la empresa productora o comercializadora.
@@ -75,31 +77,36 @@
                 img(src='@/assets/curso/images/tema2/img_4.svg'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GS1-128")
-            p.mb-0 Es un sistema de codificación internacional para la identificación de mercancías y productos en los entornos logísticos no detallistas.
+            h4 GS1-128
+            p.mb-3 Es un sistema de codificación internacional para la identificación de mercancías y productos en los entornos logísticos no detallistas.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
                 img(src='@/assets/curso/images/tema2/img_5.svg'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN-8")
+            h4 GTIN-8
             p.mb-3 Este código se usa en casos especiales de falta de espacio para poder colocar los 13 dígitos del GTIN-13.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
                 img(src='@/assets/curso/images/tema2/img_6_1.svg'  alt='')
           
           .tarjeta.back-tab.px-5.py-4(titulo="UPC-A")
-            p.mb-0 Tiene la misma función que el GTIN-13, pero es usado en EE. UU. y Canadá y su forma es parecida y solo posee 8 dígitos. El primer número, que normalmente es un 1 o un 7, es un número de sistema e indica que tiene un tamaño y un peso determinado no variable. El uso principal es la identificación de unidades de expedición.
+            h4 UPC-A
+            p.mb-3 Tiene la misma función que el GTIN-13, pero es usado en EE. UU. y Canadá y su forma es parecida y solo posee 8 dígitos. El primer número, que normalmente es un 1 o un 7, es un número de sistema e indica que tiene un tamaño y un peso determinado no variable. El uso principal es la identificación de unidades de expedición.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
                 img(src='@/assets/curso/images/tema2/img_7_1.png'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GTIN-14")
-            p.mb-0 Con este código profundizamos en la cadena logística. Este identifica el producto no unitario de consumo, sino unitario de unidad comercial para la distribución. Este código facilita identificar cajas de un mismo producto pero con diferentes unidades en su interior, es un código que facilita su lectura cuando está impreso en cartón corrugado.
+            h4 GTIN-14
+            p.mb-3 Con este código profundizamos en la cadena logística. Este identifica el producto no unitario de consumo, sino unitario de unidad comercial para la distribución. Este código facilita identificar cajas de un mismo producto pero con diferentes unidades en su interior, es un código que facilita su lectura cuando está impreso en cartón corrugado.
             .row.align-items-center.align-items-center.aling
               .col-lg-8
                 img(src='@/assets/curso/images/tema2/img_8_1.svg'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="AI")
-            p.mb-0 Se denomina identificador de aplicación y es un campo de dos o más caracteres al principio de una cadena de elementos. Los IA son prefijos que identifican el significado y el formato del campo de datos que se encuentra a continuación del IA; permite la representación de los datos de longitud variable y hace posible la codificación de información adicional en un solo símbolo de códigos de barra. Esto se denomina concatenación. Ejemplo: 
+            h4 AI
+            p.mb-3 Se denomina identificador de aplicación y es un campo de dos o más caracteres al principio de una cadena de elementos. Los IA son prefijos que identifican el significado y el formato del campo de datos que se encuentra a continuación del IA; permite la representación de los datos de longitud variable y hace posible la codificación de información adicional en un solo símbolo de códigos de barra. Esto se denomina concatenación. Ejemplo: 
             .row.align-items-center.align-items-center.aling
               .col-lg-12
                 .tabla-a.color-primario.my-3 
@@ -135,7 +142,8 @@
 
 
           .tarjeta.back-tab.px-5.py-4(titulo="GLN")
-            p.mb-0 Llamado número de localización global es un número exclusivo de 13 dígitos que se utiliza para identificar una ubicación comercial. Los 7 primeros dígitos representan el prefijo de la empresa. Los 5 dígitos siguientes representan la ubicación comercial, y el último dígito es el dígito de comprobación.
+            h4 GLN
+            p.mb-3 Llamado número de localización global es un número exclusivo de 13 dígitos que se utiliza para identificar una ubicación comercial. Los 7 primeros dígitos representan el prefijo de la empresa. Los 5 dígitos siguientes representan la ubicación comercial, y el último dígito es el dígito de comprobación.
             .row.align-items-center.align-items-center.aling
               .col-lg-12
                 img(src='@/assets/curso/images/tema2/img_9.png'  alt='')
@@ -189,10 +197,10 @@
     p.mb-5 Estándares de calidad: los estándares no son más que los niveles mínimos y máximos deseados, o aceptables de calidad que debe tener el resultado de una acción, una actividad, un programa o un servicio.
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-2.mb-5(data-aos="fade-left") 
+      .col-6.col-lg-2.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema2/img_16.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mb-0 Con una adecuada administración de recursos y una gestión planificada de la logística y el transporte se generarán estándares de calidad en la operación, mejora de la seguridad e incremento de la calidad del servicio y robustecimiento de la productividad.
+        p.mt-3 Con una adecuada administración de recursos y una gestión planificada de la logística y el transporte se generarán estándares de calidad en la operación, mejora de la seguridad e incremento de la calidad del servicio y robustecimiento de la productividad.
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-10(data-aos="fade")
@@ -204,12 +212,12 @@
     .row.justify-content-center.d-none.d-lg-block
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10(data-aos="fade")
-          .row.justify-content-center.align-items-center
+          .row.justify-content-aling.align-items-center
             .col.lg-5.lg-0
               .jumbotron-15.p-4
                 p.mb-4 Para el SENA, los estándares de calidad están dados desde el Sistema Integrado de Gestión y Autocontrol, SIGA, en donde se han establecido unas premisas que contienen la promesa de valor, y dentro de ellas está la prestación de sus servicios con calidad, cobertura y pertinencia. Por lo tanto, la calidad es una cualidad del servicio o del producto que le genera valor.
             .col.lg-5.lg-0
-              img(src='@/assets/curso/images/tema2/img_17.svg'  alt='')
+              img.mg-left-1(src='@/assets/curso/images/tema2/img_17.svg'  alt='')
 
     .row.justify-content-center.align-items-center.mb-5.d-block.d-lg-none
       .col-lg-10(data-aos="fade")
@@ -242,8 +250,8 @@
                  a.anexo.mb-4.mb-lg-0(href="https://muisca.dian.gov.co/WebArquitectura/DefLogin.faces" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p-mb-0 Enlace web. MUISCA, es un Modelo Único de Ingresos, Servicio y Control Automatizado.
+                    .anexo__texto.m-0
+                      p.mb-0 Enlace web. MUISCA, es un Modelo Único de Ingresos, Servicio y Control Automatizado.
 
               tr.th-2
                 td.th-3 
@@ -256,7 +264,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p-mb-0 Enlace web. Cartilla Gastos de transporte en la determinación del valor en aduana, que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia.
+                      p.mb-0 Enlace web. Cartilla Gastos de transporte en la determinación del valor en aduana, que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia.
 
               tr.th-1
                 td.th-3 
@@ -269,7 +277,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p-mb-0 Enlace web. SISPAP: el Sistema de Información Sanitaria para la Importación y Exportación de Productos Agrícolas y Pecuarios
+                      p.mb-0 Enlace web. SISPAP: el Sistema de Información Sanitaria para la Importación y Exportación de Productos Agrícolas y Pecuarios
 
               tr.th-2
                 td.th-3 
@@ -282,7 +290,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p-mb-0 Enlace web. VUCE: la Ventanilla Única de Comercio Exterior, es la principal herramienta de Facilitación del Comercio del País, a través de la cual se canalizan trámites de comercio exterior 
+                      p.mb-0 Enlace web. VUCE: la Ventanilla Única de Comercio Exterior, es la principal herramienta de Facilitación del Comercio del País, a través de la cual se canalizan trámites de comercio exterior 
 
               tr.th-1
                 td.th-3 
@@ -295,7 +303,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p-mb-0 Enlace web. Simulador de Costos de Exportación: desde la página de Procolombia, se tiene una herramienta llamada Simulador de costos de exportación
+                      p.mb-0 Enlace web. Simulador de Costos de Exportación: desde la página de Procolombia, se tiene una herramienta llamada Simulador de costos de exportación
               tr.th-2
                 td.th-3 
                   .row.justify-content-center.align-items-center.mb-5
@@ -307,7 +315,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p-mb-0 Enlace web. Zonas francas: las son áreas geográficas delimitadas del territorio nacional
+                      p.mb-0 Enlace web. Zonas francas: las son áreas geográficas delimitadas del territorio nacional
 
 
               tr.th-1
@@ -321,7 +329,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p-mb-0 Enlace web. SICE-TAC: es el Sistema de Información de Costos Eficientes para el Transporte Automotor de Carga.
+                      p.mb-0 Enlace web. SICE-TAC: es el Sistema de Información de Costos Eficientes para el Transporte Automotor de Carga.
 
 </template>
 

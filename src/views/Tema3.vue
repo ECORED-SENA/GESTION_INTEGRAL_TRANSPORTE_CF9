@@ -48,10 +48,10 @@
     
 
     .row.justify-content-center.align-items-star
-      .col-lg-2.mb-5(data-aos="fade-left") 
+      .col-8.col-lg-2.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema3/img_3.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mb-0 Estas reglamentaciones incluyen las relacionadas con la seguridad de los contenedores, la carga, los buques para el transporte de gas licuado, los buques pesqueros y otros más, seguido de la seguridad de la vida humana en el mar.
+        p.mt-4 Estas reglamentaciones incluyen las relacionadas con la seguridad de los contenedores, la carga, los buques para el transporte de gas licuado, los buques pesqueros y otros más, seguido de la seguridad de la vida humana en el mar.
 
     Separador
 
