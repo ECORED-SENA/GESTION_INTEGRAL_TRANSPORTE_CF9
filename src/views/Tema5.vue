@@ -14,31 +14,31 @@
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            p.mb-0 Manejar y normalizar la información a compartir con las áreas del proceso logístico.
+            | Manejar y normalizar la información a compartir con las áreas del proceso logístico.
           li 
             i.fas.fa-check
-            p.mb-0 Disminuir la digitación de datos.
+            | Disminuir la digitación de datos.
           li
             i.fas.fa-check
-            p.mb-0 Mejorar la visibilidad de los procesos.
+            | Mejorar la visibilidad de los procesos.
           li 
             i.fas.fa-check
             p.mb-0 Calcular los indicadores de gestión.
           li 
             i.fas.fa-check
-            p.mb-0 Incrementar el uso de herramientas tecnológicas.
+            | Incrementar el uso de herramientas tecnológicas.
           li 
             i.fas.fa-check
-            p.mb-0 Mayor agilidad y eficiencia en la búsqueda y asignación de vehículos.
+            | Mayor agilidad y eficiencia en la búsqueda y asignación de vehículos.
           li 
             i.fas.fa-check
-            p.mb-0 Reducción de costos por eficiencia en reducción de tiempos.
+            | Reducción de costos por eficiencia en reducción de tiempos.
           li 
             i.fas.fa-check
-            p.mb-0 La intercomunicación entre los centros de monitoreo, control y operación reduce los costos generales.
+            | La intercomunicación entre los centros de monitoreo, control y operación reduce los costos generales.
           li 
             i.fas.fa-check
-            p.mb-0 Con la trazabilidad la operación del transporte se automatiza y se genera mayor seguridad en los procesos a su cargo.
+            | Con la trazabilidad la operación del transporte se automatiza y se genera mayor seguridad en los procesos a su cargo.
          
       .col-lg-6.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema5/img_1.png'  alt='')

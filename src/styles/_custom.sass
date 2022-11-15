@@ -3,7 +3,6 @@
 
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top:  50%
     right: 48%
@@ -18,7 +17,6 @@
     top: 15%
     right: 80%
   &-4
-    animation: float3 15s ease-in-out infinite alternate
     position: absolute
     top: 28%
     right: 75%
@@ -28,10 +26,9 @@
     top: 18%
     right: 28%
   &-6
-    animation: float2 3s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 8%
+    top: 45%
+    left: 68%
 
 @keyframes float1
   0%
@@ -126,6 +123,7 @@
   @media (max-width: 768px)
     width: auto !important
     height: auto !important
+    margin-top: -20px !important
   @media (max-width: 576px)
     background-repeat: no-repeat
     height: auto !important
@@ -144,6 +142,7 @@
     width: auto !important
     height: auto !important
     margin-left: 8px !important
+    margin-top: 5px !important
   @media (max-width: 576px)
     background-repeat: no-repeat
     height: auto !important
@@ -155,6 +154,7 @@
 
 .color-custom-5
   background-color: #F6F6F6
+  box-shadow: 2px 1px 4px 1px #cdcdcd
   margin-left: -45px !important
   margin-top: 80px !important
   @media (max-width: 992px)
@@ -163,6 +163,7 @@
     width: auto !important
     height: auto !important
     margin-left: 40px !important
+    margin-top: 5px !important
   @media (max-width: 576px)
     background-repeat: no-repeat
     height: auto !important
@@ -181,11 +182,12 @@
 		background-color: #C5BEDA
 
 .color-custom-8
-  background-color:  #F6F6F6
+  background-color:#F6F6F6
   box-shadow: 2px 1px 4px 1px #cdcdcd
-  margin-left: -45px !important
-  margin-top: -35px !important
+  margin-left: -24px
+  margin-top: -5px !important
   @media (max-width: 412px)
+    margin-top: -25px !important
     margin-top: -10px
     margin-left: 8px !important
     background-repeat: no-repeat
@@ -197,8 +199,20 @@
     background-size: cover
     width: 350px
 
-.color-custom-8
-	background-color: #F6F6F6
+.color-custom-9
+  background-color:  #73E8DC
+  margin-left: 5px
+  @media (max-width: 412px)
+    margin-top: -10px
+    margin-left: 8px !important
+    background-repeat: no-repeat
+    background-size: cover
+    width: 145px
+  @media (max-width: 397px)
+    margin-top: -10px
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
 
 .fondo-1
   background-image: url('../assets/curso/images/tema1/back_intro.svg')
@@ -214,44 +228,80 @@
 .jumbotron
   background-color: #FFF1EE
   border-radius: 20px
+  height: 170px!important
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
 
 .jumbotron-1
   background-color: #FEE5DA
   border-radius: 20px
-  height: 170px !important
+@media (max-width: 768px)
+  height: 132px !important
+  width: 290px
+@media (min-width: $bp-min-sm) and (max-width: $bp-max-md) 
+  width: 355px 
+  margin-left: 20px !important
+@media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+  width: 207px
+  margin-left: -120px !important
 
 .jumbotron-2
   background-color: #FED8C7
   border-radius: 20px
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
 
 .jumbotron-3
   background-color: #FFC5B2
   border-radius: 20px
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
 
 
 .jumbotron-4
   background-color: #FFB7A1
   border-radius: 20px
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
 
 .jumbotron-5
   background-color: #FFA98E
   border-radius: 20px
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
 
 .jumbotron-6
   background-color: #FF9C7D
   border-radius: 20px
+@media (max-width: 768px)
+  height: 120px
+  width: 290px
 
 .jumbotron-7
   background-color: #F99373
   border-radius: 20px
+@media (max-width: 7682px)
+  height: 132px
+  width: 290px
 
 .jumbotron-8
   background-color: #FF815A
   border-radius: 20px
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
   
 .jumbotron-9
   background-color: #FF7246
   border-radius: 20px
+@media (max-width: 768px)
+  height: 132px
+  width: 290px
 
 .jumbotron-10
   background-color: #FFBA5B
@@ -272,9 +322,19 @@
 
 .jumbotron-15
   background-color: #fff
-  border: solid 20px #5B4794 !important
+  border: solid 15px #5B4794 !important
   height: 280px
+  width: auto
+  font-size: 15.5px
+
+.jumbotron-17
+  background-color: #fff
+  border: solid 15px #5B4794 !important
+  height: 270px
+  width: auto
+@media (max-width: 412px)
   font-size: 13px
+  
 
 .jumbotron-16
   background-color: #FF6D4B
@@ -301,8 +361,7 @@
     border-top-left-radius:  40px !important
     border-top-right-radius:  40px !important
 
-
- 
+  
 .tarjeta_grey-1
   background-color: #FAE7CF
   height: 100% !important
@@ -401,6 +460,11 @@ hr
   font-weight: 700
   line-height: 1em
 
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex
+  margin-bottom: 10px
+
+
 .aling
   justify-content: center
 
@@ -429,8 +493,19 @@ td, th
   background-image: url('../assets/curso/images/tema2/back_tab.svg')
   background-size: contain
 
-.tabs-a__tab
-  background-color: #E2E2E2
+.tabs-a__tab 
+  display: block
+  width: 100%
+  text-align: left
+  background-color: #E2E2E2 !important
+  padding: 15px 20px
+  border-radius: 5px
+  color: #111e61
+  line-height: 1.2em
+
+.tabs-a__tab__selected 
+  position: relative
+  background-color: #FFB500 !important
 
 .color-slyder-b
   background-color: #F6F6F6
@@ -519,8 +594,8 @@ td, th
   &:hover    
     .crd_hover_txt--body-1
       position: absolute
-      padding: 30% 10% 33% 10%
-      bottom: -27px
+      padding: 10% 10% 33% 10%
+      bottom: 0px
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
       height: 100% !important
@@ -537,8 +612,9 @@ td, th
         padding: 8% 5% 15% 5%
       @media (max-width: 576px)
         padding: 20% 5% 15% 5%
-      @media (max-width: 450px)
+      @media (max-width: 412px)
         padding: 3% 5% 0 5%
+
     .nuevosize1
       padding: 25% 5% 15% 5%
       @media (max-width: 1200px)
@@ -574,6 +650,7 @@ td, th
       padding: 5% 5% 15% 5%
     @media (max-width: 450px)
       padding: 8% 5% 0 5%
+    
   
   .crd_hover_txt--body-1
     position: absolute
@@ -610,3 +687,27 @@ td, th
         font-size: 1em
       p
         font-size: 0.8em
+
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  &:hover
+    .tarjeta-foto-hover__tarjeta
+      transform: translateY(0%)
+
+  &__titulo
+    position: absolute
+    bottom: 0
+    width: 100%
+  &__tarjeta
+    transition: transform 0.3s ease-in-out
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 100%
+    transform: translateY(100%)
+    @media (max-width: 412px)
+      font-size: 14px
+
+.bg-degrade
+  background: #FAE7CF

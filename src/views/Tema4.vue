@@ -40,19 +40,19 @@
         .col-lg-10(data-aos="fade")
           .row.justify-content-center.align-items-center
             .col.lg-5.lg-0
-                .jumbotron-15.p-4
-                  p.mb-2 Por esta razón es de vital importancia la comunicación y la información entre el exportador con el plan de ruta seleccionado, a fin de detectar el tránsito de los bienes en su ruta y el recibo por el destinatario.
+                .jumbotron-15.p-2
+                  p.mb-0 Por esta razón es de vital importancia la comunicación y la información entre el exportador con el plan de ruta seleccionado, a fin de detectar el tránsito de los bienes en su ruta y el recibo por el destinatario.
                   p.mb-0 El plan de ruta se desprende de los rutogramas preestablecidos o publicados por las organizaciones y en ellos se definen, desde los tiempos de despacho, tránsito, arribo y entrega, hasta los inconvenientes que puedan presentarse en sectores críticos de las vías. Pueden estar incluidos planes de ruta entre orígenes y destinos o planes entre puntos críticos.
-            .col.lg-5.lg-0
-              img.mg-left-1(src='@/assets/curso/images/tema4/img_7.png'  alt='')
+            .col.lg-8.lg-0
+              img.mg-left-1(src='@/assets/curso/images/tema4/img_7.png')
 
     .row.justify-content-center.align-items-center.mb-5.d-block.d-lg-none
       .col-lg-10(data-aos="fade")
         .row.justify-content-center.align-items-center
           .col-12.col.lg-5.lg-0
-            .jumbotron-15.p-4.mb-3
-              p.mb-3 Por esta razón es de vital importancia la comunicación y la información entre el exportador con el plan de ruta seleccionado, a fin de detectar el tránsito de los bienes en su ruta y el recibo por el destinatario.
-              p.mb-0 El plan de ruta se desprende de los rutogramas preestablecidos o publicados por las organizaciones y en ellos se definen, desde los tiempos de despacho, tránsito, arribo y entrega, hasta los inconvenientes que puedan presentarse en sectores críticos de las vías. Pueden estar incluidos planes de ruta entre orígenes y destinos o planes entre puntos críticos.
+            .jumbotron-15.p-1.mb-3
+              p.mb-3.text-small Por esta razón es de vital importancia la comunicación y la información entre el exportador con el plan de ruta seleccionado, a fin de detectar el tránsito de los bienes en su ruta y el recibo por el destinatario.
+              p.mb-0.text-small El plan de ruta se desprende de los rutogramas preestablecidos o publicados por las organizaciones y en ellos se definen, desde los tiempos de despacho, tránsito, arribo y entrega, hasta los inconvenientes que puedan presentarse en sectores críticos de las vías. Pueden estar incluidos planes de ruta entre orígenes y destinos o planes entre puntos críticos.
           .col.lg-5.lg-0
             img(src='@/assets/curso/images/tema4/img_7.png'  alt='')
 

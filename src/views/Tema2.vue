@@ -12,7 +12,7 @@
         .cajon.color-custom-2.p-5.mb-3
           p.mb-0 Todos los acuerdos comerciales se basan en el conocimiento de la información y tal como se manifiesta en la frase “La información es poder”, o “la información es conocimiento”, –atribuida por algunos a Francis Bacon, otros a Hobbes, y otros más a Bill Gates–, lo cierto es que en este mundo globalizado no solo basta con tener información, sino saber cómo utilizarla para mejorar la operatividad de la organización.
 
-      .col-8.col-lg-4.mb-5(data-aos="fade-left") 
+      .col-8.col-lg-4.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema2/img_1.svg'  alt='')
     
     p.mb-3 Para lograr un adecuado conocimiento de la información, no solo se debe rastrear la misma, sino saber qué hacer con ella. Por eso, es necesario tener conocimiento del flujo de información dentro de la organización. 
@@ -197,10 +197,10 @@
     p.mb-5 Estándares de calidad: los estándares no son más que los niveles mínimos y máximos deseados, o aceptables de calidad que debe tener el resultado de una acción, una actividad, un programa o un servicio.
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-6.col-lg-2.mb-5(data-aos="fade-left") 
+      .col-6.col-lg-2.mb-3(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema2/img_16.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mt-3 Con una adecuada administración de recursos y una gestión planificada de la logística y el transporte se generarán estándares de calidad en la operación, mejora de la seguridad e incremento de la calidad del servicio y robustecimiento de la productividad.
+        p.mb-0 Con una adecuada administración de recursos y una gestión planificada de la logística y el transporte se generarán estándares de calidad en la operación, mejora de la seguridad e incremento de la calidad del servicio y robustecimiento de la productividad.
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-10(data-aos="fade")
@@ -214,17 +214,17 @@
         .col-lg-10(data-aos="fade")
           .row.justify-content-aling.align-items-center
             .col.lg-5.lg-0
-              .jumbotron-15.p-4
-                p.mb-4 Para el SENA, los estándares de calidad están dados desde el Sistema Integrado de Gestión y Autocontrol, SIGA, en donde se han establecido unas premisas que contienen la promesa de valor, y dentro de ellas está la prestación de sus servicios con calidad, cobertura y pertinencia. Por lo tanto, la calidad es una cualidad del servicio o del producto que le genera valor.
+              .jumbotron-17.p-4
+                p.mb-0 Para el SENA, los estándares de calidad están dados desde el Sistema Integrado de Gestión y Autocontrol, SIGA, en donde se han establecido unas premisas que contienen la promesa de valor, y dentro de ellas está la prestación de sus servicios con calidad, cobertura y pertinencia. Por lo tanto, la calidad es una cualidad del servicio o del producto que le genera valor.
             .col.lg-5.lg-0
               img.mg-left-1(src='@/assets/curso/images/tema2/img_17.svg'  alt='')
 
     .row.justify-content-center.align-items-center.mb-5.d-block.d-lg-none
       .col-lg-10(data-aos="fade")
         .row.justify-content-center.align-items-center
-          .col-12.col.lg-5.lg-0
-            .jumbotron-15.p-4
-              p.mb-4 Para el SENA, los estándares de calidad están dados desde el Sistema Integrado de Gestión y Autocontrol, SIGA, en donde se han establecido unas premisas que contienen la promesa de valor, y dentro de ellas está la prestación de sus servicios con calidad, cobertura y pertinencia. Por lo tanto, la calidad es una cualidad del servicio o del producto que le genera valor.
+          .col-12.col.lg-5
+            .jumbotron-17.p-2
+              p.mb-0 Para el SENA, los estándares de calidad están dados desde el Sistema Integrado de Gestión y Autocontrol, SIGA, en donde se han establecido unas premisas que contienen la promesa de valor, y dentro de ellas está la prestación de sus servicios con calidad, cobertura y pertinencia. Por lo tanto, la calidad es una cualidad del servicio o del producto que le genera valor.
           .col.lg-5.lg-0
             img(src='@/assets/curso/images/tema2/img_17.svg'  alt='')
 
@@ -246,8 +246,8 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_4.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> <b>MUISCA</b>: es un Modelo Único de Ingresos, Servicio y Control Automatizado. Según consideraciones de la Dirección de Impuestos y Aduanas Nacionales (DIAN), este modelo de gestión permite el cumplimiento de la misión, visión y objetivos estratégicos de la entidad, y conduce al mejoramiento del recaudo, la gestión y posicionamiento de esta.</td>  
-                td 
-                 a.anexo.mb-4.mb-lg-0(href="https://muisca.dian.gov.co/WebArquitectura/DefLogin.faces" target="_blank")
+                td(width='275').p-5
+                 a.anexo.mb-4.mb(href="https://muisca.dian.gov.co/WebArquitectura/DefLogin.faces" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto.m-0
@@ -259,7 +259,7 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_5.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> A través de la Coordinación del Servicio de Valoración Aduanera y la Subdirección de Gestión Técnica Aduanera, DIAN, expidió una cartilla denominada <b> Gastos de transporte en la determinación del valor en aduana, </b> que es un instructivo para orientar la aplicación de normas sobre valoración de aduanas en Colombia. En ella se desarrollan todos los aspectos relativos a los gastos de transporte y conexos al mismo, establecidos por la Organización Mundial del Comercio (OMC) y la reglamentación nacional de aduanas. Se puede consultar la cartilla en: </td>  
-                td 
+                td(width='275').p-5 
                  a.anexo.mb-4.mb-lg-0(href="https://cutt.ly/HmimjZp" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -272,7 +272,7 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_6.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> <b>SISPAP:</b> el Sistema de Información Sanitaria para la Importación y Exportación de Productos Agrícolas y Pecuarios, es una herramienta que proporciona información, permite participar directamente en el proceso de importación y exportación de materia agrícola y pecuaria desde y hacia Colombia. Se puede tener acceso a esta página en: </td>  
-                td 
+                td(width='275').p-5
                  a.anexo.mb-4.mb-lg-0(href="https://cutt.ly/TmimCtT" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -285,7 +285,7 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_7.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> <b>VUCE:</b> la Ventanilla Única de Comercio Exterior, es la principal herramienta de Facilitación del Comercio del País, a través de la cual se canalizan trámites de comercio exterior de 52.000 usuarios vinculados a 20 entidades del Estado, coordinadas por el Ministerio de Comercio, Industria y Turismo, con el fin de intercambiar información, eliminar redundancia de procedimientos, implementar controles eficientes y promover actuaciones administrativas transparentes. Se puede ingresar a esta página desde el siguiente vínculo: </td>  
-                td 
+                td(width='275').p-5 
                  a.anexo.mb-4.mb-lg-0(href="https://www.vuce.gov.co/" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -298,7 +298,7 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_8.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> <b>Simulador de Costos de Exportación:</b> desde la página de Procolombia, se tiene una herramienta llamada Simulador de costos de exportación, en donde se permite calcular, el costo de la exportación desde el origen hasta el destino de la carga. En esa misma página hay un acceso a mapas de oportunidades, en donde se puede descubrir cuáles son las mejores oportunidades de expansión internacional de negocios, organizadas por sectores y países. Para acceder a la página, ingresar en: </td>  
-                td 
+                td(width='275').p-5 
                  a.anexo.mb-4.mb-lg-0(href="https://connectamericas.com/es/estimadora#!/app/search" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -310,7 +310,7 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_9.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> <b>Zonas francas:</b> son áreas geográficas delimitadas del territorio nacional, en donde se desarrollan actividades industriales de bienes y de servicios o actividades comerciales, bajo una normatividad especial en materia tributaria, aduanera y de comercio exterior. Se puede tener acceso a esta página desde aquí:  </td>  
-                td 
+                td(width='275').p-5 
                  a.anexo.mb-4.mb-lg-0(href="http://zonasfrancas.mincit.gov.co/" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -324,7 +324,7 @@
                     .col-lg-5
                       img.mt-5(src='@/assets/curso/images/tema2/ico_10.svg'  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 <td colspan="2"> <b>SICE-TAC:</b> es el Sistema de Información de Costos Eficientes para el Transporte Automotor de Carga, el cual permite medir o calcular los costos de la operación de transporte de acuerdo con las características propias de cada viaje: tipo de vehículo, tipo de carga, origen/destino, horas estimadas de espera, cargue y descargue. Se puede acceder a este sistema de información, con este vínculo: </td>  
-                td 
+                td(width='275').p-5 
                  a.anexo.mb-4.mb-lg-0(href="https://cutt.ly/KmiWyZf" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")

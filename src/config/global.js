@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'Este componente formativo aborda las características e indicadores de desempeño de la cadena de distribución escogida para utilizar, describiendo toda la logística involucrada en la entrega de los productos o servicios de una empresa en el lugar correcto, en el momento adecuado y al menor costo. ',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal_1.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
     imagenesDecorativasBanner: [
       {

@@ -36,30 +36,29 @@
     p.mb-5 A nivel nacional, desde el Ministerio de Comercio, Industria y Turismo se ha manifestado que al año 2018, Colombia cuenta con 16 acuerdos comerciales (incluyen tratados de libre comercio y acuerdos de alcance parcial): 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")     
-      .col-6.col-lg-2.lg-0.mb-3   
-        .jumbotron.p-5   
-          .row.justify-content-center.align-items-center
-            p.text-center.my-4 #[b CAN (1973)]
-      
-      .col-6.col-lg-2.lg-0.mb-3
-        .jumbotron-1.p-4  
-          .row.justify-content-center.align-items-center
-            p.text-center.mt-4 #[b Panamá y Chile (1993)]
-
       .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-2.p-5   
           .row.justify-content-center.align-items-center
-            p.text-center.mb-2 #[b Caricom y México (1995)]
+            p.text-center.my-0  #[b CAN (1973)] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 
       .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-3.p-5
           .row.justify-content-center.align-items-center
-            p.text-center.py-2 #[b Cuba (2001)]
+            p.text-center.mb-0  #[b Panamá y Chile (1993)]
+      .col-6.col-lg-2.lg-0.mb-3
+        .jumbotron-2.p-5   
+          .row.justify-content-center.align-items-center
+            p.text-center.my-0 #[b Caricom y México (1995)]
 
+      .col-6.col-lg-2.lg-0.mb-3
+        .jumbotron-3.p-5
+          .row.justify-content-center.align-items-center
+            p.text-center.my-0  #[b Cuba &nbsp&nbsp&nbsp&nbsp(2001)] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          
       .col-6.col-lg-2.lg-0.mb-3
         .jumbotron-4.p-5
           .row.justify-content-center.align-items-center
-            p.text-center.mb-4 #[b Mercosur (2005)]
+            p.text-center.my-2 #[b Mercosur (2005)]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-6.col-lg-2.lg-0.mb-3
@@ -132,12 +131,12 @@
           .row.justify-content-center.align-items-center
             .col
               .row.justify-content-between.align-items-center
-                .col-md-2
+                .col-lg-2
                   img.mx-3(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
                   p.mb-1.text-white.mx-3 Los comerciantes tienen unos derechos, deberes y responsabilidades que incluyen 19 ítems, todos ellos enmarcados en actos de comercio lícitos y que están regulados por el registro mercantil; se tendrán como mercantiles todos los actos de los comerciantes relacionados con actividades o empresas de comercio, y los ejecutados por cualquier persona lo que asegura el cumplimiento de las obligaciones comerciales. A continuación, se puede acceder al Código de Comercio de Colombia en formato PDF. 
-                .col-md-2
-                  a.boton.color-custom-8(:href="obtenerLink('downloads/Anexo1_CodigoComercio.pdf')" target="_blank")
+                .col-md-3
+                  a.boton.color-custom-9(:href="obtenerLink('downloads/Anexo1_CodigoComercio.pdf')" target="_blank")
                     span Descargar
                     .row
                       .col-auto
@@ -155,31 +154,31 @@
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            p.mb-0 A1- B1 Obligaciones generales del exportador / importador
+            | A1- B1 Obligaciones generales del exportador / importador
           hr
           li 
             i.fas.fa-check
-            p.mb-0  A2- B2 Formalidades de entrega / recibo de mercancía
+            |  A2- B2 Formalidades de entrega / recibo de mercancía
           hr
           li 
             i.fas.fa-check
-            p.mb-0  A3- B3 Responsabilidades de riesgos
+            | A3- B3 Responsabilidades de riesgos
           hr
           li 
             i.fas.fa-check
-            p.mb-0  A4- B4 Entrega / recibo 
+            |  A4- B4 Entrega / recibo 
           hr
           li 
             i.fas.fa-check
-            p.mb-0  A5- B5 Cubrimiento de seguros
+            | A5- B5 Cubrimiento de seguros
           hr
           li 
             i.fas.fa-check
-            p.mb-0  A6- B6 Documentación de entrega / recibo/ transporte
+            | A6- B6 Documentación de entrega / recibo/ transporte
           hr
           li 
             i.fas.fa-check
-            p.mb-0  A7- B7 Notificaciones al exportador / importador
+            |  A7- B7 Notificaciones al exportador / importador
 
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=U2n3w7GU1wY&ab_channel=MincomercioColombia" target="_blank")
           .anexo__icono
@@ -199,7 +198,7 @@
       .col-6.col-lg-2.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/ico_2.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mt-3 Un contrato de carácter internacional que no está sujeto a ningún requisito de forma por medio del cual el vendedor se obliga a entregar las mercancías, transmitir su propiedad y entregar cualesquiera documentos relacionados con ellas, en las condiciones establecidas por las partes, a cambio de un precio a cuyo pago se obliga el comprador (ONU, 2011).
+        p.mb-0 Un contrato de carácter internacional que no está sujeto a ningún requisito de forma por medio del cual el vendedor se obliga a entregar las mercancías, transmitir su propiedad y entregar cualesquiera documentos relacionados con ellas, en las condiciones establecidas por las partes, a cambio de un precio a cuyo pago se obliga el comprador (ONU, 2011).
    
     ol.lista-ol--cuadro
       li 
@@ -305,7 +304,7 @@
         .jumbotron-11.p-3
           .row.justify-content-center.align-items-between
             .col-lg-8.mb-3(data-aos="fade-left") 
-              p.mb-0 #[span.color-text-1 Incoterms:] son reglas que se utilizan en los contratos de compraventa internacional (López, 2016). Estas formalidades están expresadas en el catálogo de términos de negociación internacional, denominados Incoterms, del inglés:
+              p.mb-0 <b>#[span.color-text-1 Incoterms:]</b> son reglas que se utilizan en los contratos de compraventa internacional (López, 2016). Estas formalidades están expresadas en el catálogo de términos de negociación internacional, denominados Incoterms, del inglés:
             .col-lg-2.aling(data-aos="fade-right")
               p.mb-0 <b>#[span.color-text-1 IN]ternational</b>
               p.mb-0 <b>#[span.color-text-1 CO]mmercial</b>
@@ -362,55 +361,57 @@
 
     p.mb-5 Finalmente, es preciso indicar que la evolución de la normatividad de los Incoterms, se realiza mediante la actualización de los mismos cada 10 años, siendo vigentes los Incoterms de 2010 y 2020. A renglón seguido se indican los principales cambios: 
 
-    .row.justify-content-center.mb-5(data-aos="fade-up-right")                                   
+
+    .row.align-items-center.justify-content-center.mb-2(data-aos="fade-down")
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
-        .crd_hover_txt-1
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/images/tema1/tj4_1.svg")
-          .crd_hover_txt--body-1
-            h4.text-center.mb-5 4  Categorías
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                p.mb-0 <b>E→</b> Mercancía recogida en: #[span.color-text-2 E]XW 
-              li 
-                i.fas.fa-check
-                p.mb-0 <b>F→</b> Mercancía transportada desde: #[span.color-text-2 F]CA: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB 
-              li 
-                i.fas.fa-check
-                p.mb-0 <b>C→</b> Mercancía transportada hasta: #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF.
-              li 
-                i.fas.fa-check 
-                p.mb-0  <b>D→</b> Mercancía entregada en: #[span.color-text-2 D]AF; #[span.color-text-2 D]ES; #[span.color-text-2 D]EQ; #[span.color-text-2 D]DU; #[span.color-text-2 D]DP
+        .tarjeta.tarjeta-foto-hover
+          .tarjeta-foto-hover__img: img(src="@/assets/curso/images/tema1/tj4_1.svg")
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .p-4.text-center
+              h4.text-center.mb-3 4  Categorías
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 <b>E→</b> Mercancía recogida en: #[span.color-text-2 E]XW 
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 <b>F→</b> Mercancía transportada desde: #[span.color-text-2 F]CA: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB 
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 <b>C→</b> Mercancía transportada hasta: #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF.
+                  li 
+                    i.fas.fa-check 
+                    p.mb-0  <b>D→</b> Mercancía entregada en: #[span.color-text-2 D]AF; #[span.color-text-2 D]ES; #[span.color-text-2 D]EQ; #[span.color-text-2 D]DU; #[span.color-text-2 D]DP
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
-        .crd_hover_txt-1
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/images/tema1/tj5_1.svg")
-          .crd_hover_txt--body-1
-            h4.text-center.mb-5  2 Clases
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AT; #[span.color-text-2 D]AP; #[span.color-text-2 D]DP 
-              li 
-                i.fas.fa-check
-                p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
+        .tarjeta.tarjeta-foto-hover
+          .tarjeta-foto-hover__img: img(src="@/assets/curso/images/tema1/tj5_1.svg")
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .p-4.text-center
+              h4.text-center.mb-5  2 Clases
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AT; #[span.color-text-2 D]AP; #[span.color-text-2 D]DP 
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
-        .crd_hover_txt-1
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/images/tema1/tj6_1.svg")
-          .crd_hover_txt--body-1
-            h4.text-center.mb-5  2 Clases
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AP; #[span.color-text-2 D]PU, #[span.color-text-2 D]DP 
-              li 
-                i.fas.fa-check
-                p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
+        .tarjeta.tarjeta-foto-hover
+          .tarjeta-foto-hover__img: img(src="@/assets/curso/images/tema1/tj6_1.svg")
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .p-4.text-center
+              h4.text-center.mb-5  2 Clases
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AP; #[span.color-text-2 D]PU, #[span.color-text-2 D]DP 
+                  li 
+                    i.fas.fa-check
+                    p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
+
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-6(data-aos="fade-right")  
@@ -584,10 +585,10 @@
       .h2 1.4   Instructivo para trazabilidad
 
     .row.justify-content-center.align-items-star.mb-3
-      .col-6.col-lg-2.mb-5(data-aos="fade-left") 
+      .col-6.col-lg-2.mb-2(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_11.svg'  alt='')
       .col-lg-10(data-aos="fade-right")  
-        p.mt-3 La trazabilidad es un conjunto de procedimientos, medidas y actuaciones que dan a conocer la trayectoria histórica de productos, materias primas o mercancías en la cadena de suministro, a fin de poder localizar el producto, en cualquier tiempo dentro de la cadena logística, con el propósito de poder inmovilizar o retirar cualquier mercancía en caso de que surjan problemas de seguridad.
+        p.mb-0 La trazabilidad es un conjunto de procedimientos, medidas y actuaciones que dan a conocer la trayectoria histórica de productos, materias primas o mercancías en la cadena de suministro, a fin de poder localizar el producto, en cualquier tiempo dentro de la cadena logística, con el propósito de poder inmovilizar o retirar cualquier mercancía en caso de que surjan problemas de seguridad.
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-10(data-aos="fade")
