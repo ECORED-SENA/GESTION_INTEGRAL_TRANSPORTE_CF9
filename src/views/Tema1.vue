@@ -385,8 +385,8 @@
 
     .row.justify-content-center.mb-5.mg-top-3(data-aos="fade-down")
       .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema1/tj_4_1.png")
+        .tarjeta.tarjeta-up.sb
+          img(src="@/assets/curso/images/tema1/tj_4_1_1.png")
           .tarjeta-up__content.bg-1
             h4.text-center.mb-3 4  Categorías
               ul.lista-ul--color
@@ -404,8 +404,8 @@
                   p.mb-0  <b>D→</b> Mercancía entregada en: #[span.color-text-2 D]AF; #[span.color-text-2 D]ES; #[span.color-text-2 D]EQ; #[span.color-text-2 D]DU; #[span.color-text-2 D]DP
 
       .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema1/tj5_1.svg")
+        .tarjeta.tarjeta-up.sb
+          img(src="@/assets/curso/images/tema1/tj_5_1_1.png")
           .tarjeta-up__content.bg-1
             h4.text-center.mb-5  2 Clases
               ul.lista-ul--color
@@ -417,8 +417,8 @@
                   p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
 
       .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
-        .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema1/tj6_1.svg")
+        .tarjeta.tarjeta-up.sb
+          img(src="@/assets/curso/images/tema1/tj_6_1_1.png")
           .tarjeta-up__content.bg-1
             h4.text-center.mb-5  2 Clases
               ul.lista-ul--color
