@@ -35,56 +35,77 @@
       
     p.mb-5 A nivel nacional, desde el Ministerio de Comercio, Industria y Turismo se ha manifestado que al año 2018, Colombia cuenta con 16 acuerdos comerciales (incluyen tratados de libre comercio y acuerdos de alcance parcial): 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")     
-      .col-6.col-lg-2.lg-0.mb-3
-        .jumbotron-2.p-5   
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-down")     
+      .col-8.col-lg-2.lg-0.mb-3
+        .jumbotron-2.p-4
           .row.justify-content-center.align-items-center
-            p.text-center.my-0  #[b CAN (1973)] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            .col-lg-12
+              .py-5              
+                p.text-center.mb-3   #[b CAN (1973)] 
 
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-3.p-5
           .row.justify-content-center.align-items-center
-            p.text-center.mb-0  #[b Panamá y Chile (1993)]
-      .col-6.col-lg-2.lg-0.mb-3
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0  #[b Panamá y Chile (1993)]
+
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-2.p-5   
           .row.justify-content-center.align-items-center
-            p.text-center.my-0 #[b Caricom y México (1995)]
+            .col-lg-12
+              .py-4  
+                p.text-center.my-4 #[b Caricom y México (1995)]
 
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-3.p-5
           .row.justify-content-center.align-items-center
-            p.text-center.my-0  #[b Cuba &nbsp&nbsp&nbsp&nbsp(2001)] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0  #[b Cuba (2001)] 
           
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-4.p-5
           .row.justify-content-center.align-items-center
-            p.text-center.my-2 #[b Mercosur (2005)]
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0 #[b Mercosur (2005)]
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-5.p-5  
           .row.justify-content-center.align-items-center
-            p.text-center.mb-0 #[b Triángulo Norte (2009)]
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0 #[b Triángulo Norte (2009)]
 
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-6.p-5  
           .row.justify-content-center.align-items-center
-            p.text-center.mb-0 #[b EFTA y Canadá (2011)]
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0 #[b EFTA y Canadá (2011)]
 
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-7.p-5 
           .row.justify-content-center.align-items-center  
-            p.text-center.mb-0 #[b E.U. y Venezuela (2012)]
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0 #[b E.U. y Venezuela (2012)]
 
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-8.p-5  
           .row.justify-content-center.align-items-center
-            p.text-center.mb-0 #[b Unión Europea (2013)]
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0 #[b Unión Europea (2013)]
      
-      .col-6.col-lg-2.lg-0.mb-3
+      .col-8.col-lg-2.lg-0.mb-3
         .jumbotron-9.p-4
           .row.justify-content-center.align-items-center
-            p.text-center.py-3 #[b Corea, Costa Rica y Alianza Pacífico (2016)]
+            .col-lg-12
+              .py-5   
+                p.text-center.mb-0 #[b Corea, Costa Rica y Alianza Pacífico (2016)]
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-6(data-aos="fade-right")  
@@ -125,22 +146,23 @@
       .col-lg-6.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_5.svg'  alt='')
 
-    .row.align-items-center.aling.my-3
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12(data-aos="zoom-in-down")
-        .tarjeta.color-custom-4.p-4.mb-5
-          .row.justify-content-center.align-items-center
+        .tarjeta.color-custom-4.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
             .col
               .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img.mx-3(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
                   p.mb-1.text-white.mx-3 Los comerciantes tienen unos derechos, deberes y responsabilidades que incluyen 19 ítems, todos ellos enmarcados en actos de comercio lícitos y que están regulados por el registro mercantil; se tendrán como mercantiles todos los actos de los comerciantes relacionados con actividades o empresas de comercio, y los ejecutados por cualquier persona lo que asegura el cumplimiento de las obligaciones comerciales. A continuación, se puede acceder al Código de Comercio de Colombia en formato PDF. 
-                .col-md-3
+                .col-sm-auto
                   a.boton.color-custom-9(:href="obtenerLink('downloads/Anexo1_CodigoComercio.pdf')" target="_blank")
                     span Descargar
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/Ico_download_1.svg",  alt='', style="width:10px; display:block; margin:auto 0 ;")
+
 
     p.mb-3 A nivel internacional hay unas obligaciones del vendedor y del comprador, o sea del exportador y del importador, las cuales incluyen tres factores: #[span.color-text 1) las obligaciones de las partes, 2) los riesgos de la entrega y 3) los costos del cumplimiento estricto del giro normal de los negocios.]
 
@@ -180,7 +202,7 @@
             i.fas.fa-check
             |  A7- B7 Notificaciones al exportador / importador
 
-        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=U2n3w7GU1wY&ab_channel=MincomercioColombia" target="_blank")
+        .mx-5.a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=U2n3w7GU1wY&ab_channel=MincomercioColombia" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -303,7 +325,7 @@
       .col-lg-8(data-aos="fade")
         .jumbotron-11.p-3
           .row.justify-content-center.align-items-between
-            .col-lg-8.mb-3(data-aos="fade-left") 
+            .col-lg-8.mb-0(data-aos="fade-left") 
               p.mb-0 <b>#[span.color-text-1 Incoterms:]</b> son reglas que se utilizan en los contratos de compraventa internacional (López, 2016). Estas formalidades están expresadas en el catálogo de términos de negociación internacional, denominados Incoterms, del inglés:
             .col-lg-2.aling(data-aos="fade-right")
               p.mb-0 <b>#[span.color-text-1 IN]ternational</b>
@@ -361,56 +383,51 @@
 
     p.mb-5 Finalmente, es preciso indicar que la evolución de la normatividad de los Incoterms, se realiza mediante la actualización de los mismos cada 10 años, siendo vigentes los Incoterms de 2010 y 2020. A renglón seguido se indican los principales cambios: 
 
+    .row.justify-content-center.mb-5.mg-top-3(data-aos="fade-down")
+      .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
+        .tarjeta.tarjeta-up
+          img(src="@/assets/curso/images/tema1/tj_4_1.png")
+          .tarjeta-up__content.bg-1
+            h4.text-center.mb-3 4  Categorías
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check
+                  p.mb-0 <b>E→</b> Mercancía recogida en: #[span.color-text-2 E]XW 
+                li 
+                  i.fas.fa-check
+                  p.mb-0 <b>F→</b> Mercancía transportada desde: #[span.color-text-2 F]CA: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB 
+                li 
+                  i.fas.fa-check
+                  p.mb-0 <b>C→</b> Mercancía transportada hasta: #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF.
+                li 
+                  i.fas.fa-check 
+                  p.mb-0  <b>D→</b> Mercancía entregada en: #[span.color-text-2 D]AF; #[span.color-text-2 D]ES; #[span.color-text-2 D]EQ; #[span.color-text-2 D]DU; #[span.color-text-2 D]DP
 
-    .row.align-items-center.justify-content-center.mb-2(data-aos="fade-down")
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
-        .tarjeta.tarjeta-foto-hover
-          .tarjeta-foto-hover__img: img(src="@/assets/curso/images/tema1/tj4_1.svg")
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3
-          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-            .p-4.text-center
-              h4.text-center.mb-3 4  Categorías
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 <b>E→</b> Mercancía recogida en: #[span.color-text-2 E]XW 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 <b>F→</b> Mercancía transportada desde: #[span.color-text-2 F]CA: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 <b>C→</b> Mercancía transportada hasta: #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF.
-                  li 
-                    i.fas.fa-check 
-                    p.mb-0  <b>D→</b> Mercancía entregada en: #[span.color-text-2 D]AF; #[span.color-text-2 D]ES; #[span.color-text-2 D]EQ; #[span.color-text-2 D]DU; #[span.color-text-2 D]DP
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
-        .tarjeta.tarjeta-foto-hover
-          .tarjeta-foto-hover__img: img(src="@/assets/curso/images/tema1/tj5_1.svg")
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3
-          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-            .p-4.text-center
-              h4.text-center.mb-5  2 Clases
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AT; #[span.color-text-2 D]AP; #[span.color-text-2 D]DP 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
-        .tarjeta.tarjeta-foto-hover
-          .tarjeta-foto-hover__img: img(src="@/assets/curso/images/tema1/tj6_1.svg")
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3
-          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-            .p-4.text-center
-              h4.text-center.mb-5  2 Clases
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AP; #[span.color-text-2 D]PU, #[span.color-text-2 D]DP 
-                  li 
-                    i.fas.fa-check
-                    p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
+      .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
+        .tarjeta.tarjeta-up
+          img(src="@/assets/curso/images/tema1/tj5_1.svg")
+          .tarjeta-up__content.bg-1
+            h4.text-center.mb-5  2 Clases
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check
+                  p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AT; #[span.color-text-2 D]AP; #[span.color-text-2 D]DP 
+                li 
+                  i.fas.fa-check
+                  p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
+
+      .col-lg-4.col-auto.mb-3.mb-lg-0.mt-2
+        .tarjeta.tarjeta-up
+          img(src="@/assets/curso/images/tema1/tj6_1.svg")
+          .tarjeta-up__content.bg-1
+            h4.text-center.mb-5  2 Clases
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-check
+                  p.mb-0 Reglas para cualquier modo o modos de transporte: #[span.color-text-2 E]XW; #[span.color-text-2 F]CA; #[span.color-text-2 C]PT; #[span.color-text-2 C]IP; #[span.color-text-2 D]AP; #[span.color-text-2 D]PU, #[span.color-text-2 D]DP 
+                li 
+                  i.fas.fa-check
+                  p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
 
 
     .row.justify-content-center.align-items-center.mb-3

@@ -12,48 +12,51 @@
       .col-lg-6(data-aos="fade-right")  
         p.mb-3 Los beneficios de un sistema de trazabilidad en la operación del transporte pueden desglosarse de la siguiente manera: 
         ul.lista-ul--color
-          li 
+          li.mb-1 
             i.fas.fa-check
             | Manejar y normalizar la información a compartir con las áreas del proceso logístico.
-          li 
+          li.mb-1 
             i.fas.fa-check
             | Disminuir la digitación de datos.
-          li
+          li.mb-1 
             i.fas.fa-check
             | Mejorar la visibilidad de los procesos.
-          li 
+          li.mb-1  
             i.fas.fa-check
             p.mb-0 Calcular los indicadores de gestión.
-          li 
+          li.mb-1  
             i.fas.fa-check
             | Incrementar el uso de herramientas tecnológicas.
-          li 
+          li.mb-1 
             i.fas.fa-check
             | Mayor agilidad y eficiencia en la búsqueda y asignación de vehículos.
-          li 
+          li.mb-1  
             i.fas.fa-check
             | Reducción de costos por eficiencia en reducción de tiempos.
-          li 
+          li.mb-1  
             i.fas.fa-check
             | La intercomunicación entre los centros de monitoreo, control y operación reduce los costos generales.
-          li 
+          li.mb-1  
             i.fas.fa-check
             | Con la trazabilidad la operación del transporte se automatiza y se genera mayor seguridad en los procesos a su cargo.
+
+        p.mb-3 Por su parte, las debilidades tienen que ver con:
+
+        ul.lista-ul--color
+          li.mb-1  
+            i.fas.fa-check
+            | Altas inversiones en equipos de tecnología de captura de datos.
+          li.mb-1  
+            i.fas.fa-check
+            | Incremento en la capacitación constante de los operadores para mejorar la automatización de los procesos.
+          li.mb-1 
+            i.fas.fa-check
+            | Unificación de programas y tecnologías para automatización de la operación
          
       .col-lg-6.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema5/img_1.png'  alt='')
 
-      p.mb-5 Por su parte, las debilidades tienen que ver con:
-      ul.lista-ul--color
-        li 
-          i.fas.fa-check
-          p Altas inversiones en equipos de tecnología de captura de datos.
-        li 
-          i.fas.fa-check
-          p Incremento en la capacitación constante de los operadores para mejorar la automatización de los procesos.
-        li
-          i.fas.fa-check
-          p Unificación de programas y tecnologías para automatización de la operación
+      
 
     Separador
 
