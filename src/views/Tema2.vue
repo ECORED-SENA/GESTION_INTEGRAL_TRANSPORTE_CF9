@@ -12,7 +12,7 @@
         .cajon.color-custom-2.p-5.mb-3
           p.mb-0 Todos los acuerdos comerciales se basan en el conocimiento de la información y tal como se manifiesta en la frase “La información es poder”, o “la información es conocimiento”, –atribuida por algunos a Francis Bacon, otros a Hobbes, y otros más a Bill Gates–, lo cierto es que en este mundo globalizado no solo basta con tener información, sino saber cómo utilizarla para mejorar la operatividad de la organización.
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-left") 
+      .col-10.col-lg-4.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema2/img_1.svg'  alt='')
     
     p.mb-3 Para lograr un adecuado conocimiento de la información, no solo se debe rastrear la misma, sino saber qué hacer con ella. Por eso, es necesario tener conocimiento del flujo de información dentro de la organización. 
@@ -74,7 +74,7 @@
             p.mb-5 Las siguientes cifras corresponden al producto concreto y la cifra final es un dígito de control o verificación. 
             .row.align-items-center.align-items-center.aling
               .col-lg-6
-                img(src='@/assets/curso/images/tema2/img_4.svg'  alt='')
+                img(src='@/assets/curso/images/tema2/img_4_1.png'  alt='')
 
           .tarjeta.back-tab.px-5.py-4(titulo="GS1-128")
             h4 GS1-128
@@ -138,7 +138,7 @@
                         td.text-center  11 (2)
                         td Fecha de producción (AAMMDD)
                         td.text-center  N2 + N6
-            p.text-center.mb-0 Imagen tomada de GS1. (2020). Guía de Identificación. https://www.gs1co.org/Portals/0/Contenido/Descargables/Gu%C3%ADa%20de%20identificaci%C3%B3n%20GS1%20Colombia.pdf?timestamp=1597330740389 
+            p.text-center.mb-0 Imagen tomada de GS1. (2020). Guía de Identificación. https://www.gs1co.org/Portals/0/Contenido/Descargables/Gu%C3%ADa%20de%20identificaci%C3%B3n%20GS1%20<br>Colombia.pdf?timestamp=1597330740389 
 
 
           .tarjeta.back-tab.px-5.py-4(titulo="GLN")
@@ -162,7 +162,6 @@
     figure.mb-5
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/S74E_qaBXmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      figcaption Video: Leyenda del video
 
     Separador
 
@@ -228,7 +227,6 @@
           .col.lg-5.lg-0
             img(src='@/assets/curso/images/tema2/img_17.svg'  alt='')
 
-    p.mb-5 Dentro de los sistemas digitales de gestión de la información que se manejan actualmente en los procesos de importación y exportación de una manera simulada al sector real, se tienen los siguientes:
 
     Separador
 
@@ -359,13 +357,13 @@ export default {
       {
         titulo: 'BIC',
         texto:
-          'Es el código marítimo de identificación de contenedores expedido por la <i>Bureau International des Containers et du Transport Intermodal.</i> Los contenedores incluyen 11 dígitos, siendo los 4 primeros dígitos, letras. Las tres primeras identifican al propietario del contenedor y son asignadas por el BIC. La siguiente letra puede ser: <br>  U que identifica contenedores.J equipo auxiliar o Z que indica cómo se transporta por carretera. <br> Los siguientes seis números son provenientes de un algoritmo que asigna numeraciones a cada letra del alfabeto según la tabla que se muestra. Como curiosidad no se incluyen los números repetidos, tales como el 11, el 22 ni el 33. ',
+          'Es el código marítimo de identificación de contenedores expedido por la <i>Bureau International des Containers et du Transport Intermodal.</i> Los contenedores incluyen 11 dígitos, siendo los 4 primeros dígitos, letras. Las tres primeras identifican al propietario del contenedor y son asignadas por el BIC. La siguiente letra puede ser: <br>  U que identifica contenedores. J equipo auxiliar o Z que indica cómo se transporta por carretera. <br> Los siguientes seis números son provenientes de un algoritmo que asigna numeraciones a cada letra del alfabeto según la tabla que se muestra. Como curiosidad no se incluyen los números repetidos, tales como el 11, el 22 ni el 33. ',
         imagen: require('@/assets/curso/images/tema2/img_13.png'),
       },
       {
         titulo: 'IMDG',
         texto:
-          'De la Organización Marítima Internacional (IMO), es el Código Marítimo Internacional de Mercancías Peligrosas. El Convenio para la Seguridad de la Vida Humana en el Mar, acrónimo de <i>“Safety Of Life At Sea</i> (SOLAS)” de 1960 recomendó que los gobiernos adoptarán un código internacional uniforme para el transporte de mercancías peligrosas por vía marítima. Para estos fines, las mercancías peligrosas se encuentran agrupadas en diferentes clases, y algunas de éstas se subdividen a su vez para definir y describir las características y propiedades de las sustancias, materiales y artículos que corresponden a cada clase o división.',
+          'De la Organización Marítima Internacional (IMO), es el Código Marítimo Internacional de Mercancías Peligrosas. El Convenio para la Seguridad de la Vida Humana en el Mar, acrónimo de <i>“Safety Of Life At Sea</i> (SOLAS)” de 1960 recomendó que los gobiernos adoptarán un código internacional uniforme para el transporte de mercancías peligrosas por vía marítima. Para estos fines, las mercancías peligrosas se encuentran agrupadas en diferentes clases, y algunas de estas se subdividen a su vez para definir y describir las características y propiedades de las sustancias, materiales y artículos que corresponden a cada clase o división.',
         imagen: require('@/assets/curso/images/tema2/img_14.svg'),
       },
       {

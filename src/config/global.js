@@ -224,7 +224,7 @@ export default {
         'https://www.iso.org/obp/ui/#iso:std:iso:9000:ed-4:v1:es.López. D. (2016). Incoterms.',
     },
     {
-      referencia: 'López. D. (2016). Incoterm',
+      referencia: 'López. D. (2016). Incoterms',
       link: 'https://economipedia.com/definiciones/incoterms.html',
     },
     {
@@ -239,7 +239,7 @@ export default {
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (1971). Decreto 140 de 1971. Código de Comercio.',
+        'Presidencia de la República de Colombia. (1971). Decreto 410 de 1971. Código de Comercio.',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
     },

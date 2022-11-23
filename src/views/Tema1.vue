@@ -18,7 +18,7 @@
         img.mx-3.mt-5(src='@/assets/curso/images/tema1/img_1.svg'  alt='')
 
 
-    p.mb-5 En las páginas del sistema de Información sobre Comercio Exterior (SICE) y la página oficial de la Organización de los Estados Americanos (OEA), se pueden consultar los acuerdos multilaterales, acuerdos de libre comercio, uniones aduaneras, acuerdos macro, y acuerdos comerciales preferenciales, entre los países miembros de la OEA y el resto del mundo. 
+    p.mb-5 En las páginas del Sistema de Información sobre Comercio Exterior (SICE) y la página oficial de la Organización de los Estados Americanos (OEA), se pueden consultar los acuerdos multilaterales, acuerdos de libre comercio, uniones aduaneras, acuerdos macro, y acuerdos comerciales preferenciales, entre los países miembros de la OEA y el resto del mundo. 
 
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-12.mb-3(data-aos="fade-left") 
@@ -202,7 +202,7 @@
             i.fas.fa-check
             |  A7- B7 Notificaciones al exportador / importador
 
-        .mx-5.a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=U2n3w7GU1wY&ab_channel=MincomercioColombia" target="_blank")
+        a.anexo.mb-4.mb-lg-0.mx-5(href="https://www.youtube.com/watch?v=U2n3w7GU1wY&ab_channel=MincomercioColombia" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -339,7 +339,7 @@
     figure.mb-5
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8275uw4WepI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      figcaption Video: Leyenda del video
+  
 
     p.mb-3 En la siguiente figura se presenta un resumen de las diferentes combinaciones de las obligaciones del exportador / importador.
 
@@ -360,7 +360,7 @@
       .col-lg-4
         figcaption 
           p.mb-0 Nota. Tomada de Nalww.mx (s.f.) 
-    p.mb-3 Ahora, se resumen los aspectos de la compraventa internacional que regulan los Incoterms son:
+    p.mb-3 Ahora, se resumen los aspectos de la compraventa internacional que regulan los Incoterms:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-6(data-aos="fade-right")  
@@ -430,18 +430,13 @@
                   p.mb-0 Reglas para transporte marítimo y vías navegables interiores: #[span.color-text-2 F]AS; #[span.color-text-2 F]OB; #[span.color-text-2 C]FR; #[span.color-text-2 C]IF
 
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center
       .col-lg-6(data-aos="fade-right")  
         p.mb-3 La Conferencia de La Haya de Derecho Internacional Privado elabora instrumentos jurídicos multilaterales que responden a las necesidades mundiales, al tiempo que garantizan su seguimiento. La Conferencia se ha ido transformando poco a poco en un centro de cooperación judicial y administrativa internacional en materia de derecho internacional privado, en particular en los ámbitos de la protección del niño y de la familia, del procedimiento civil y del derecho comercial, convirtiendo su objetivo en una organización mundial para la cooperación transfronteriza en materia civil y comercial. Su sede está ubicada en La Haya, Países Bajos. Colombia participa como 
       .col-lg-6.mb-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_9.svg'  alt='')
 
-    .row.justify-content-center.align-items-end.mb-5
-      .col-lg-10(data-aos="fade")
-        .jumbotron-12.p-4
-          .row.justify-content-center.align-items-between
-            .col-lg-10.mb-3(data-aos="fade-left") 
-              p.text-center.mb-0 “El vendedor si no estuviere obligado a contratar un seguro de transporte, deberá proporcionar al comprador, a petición de este, toda la información disponible que sea necesaria para contratar ese seguro” (ONU, 2011).
+    p.mb-3 Estado observador en la Conferencia de La Haya de Derecho Internacional Privado (Chdip), y en particular en el trabajo relativo a las convenciones creadas en el seno de esta organización y que Colombia ha ratificado (HCCH, 2021). 
 
     Separador
 
