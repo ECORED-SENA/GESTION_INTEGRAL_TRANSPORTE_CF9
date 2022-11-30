@@ -233,6 +233,8 @@
     #t_2_3.titulo-segundo
       .h2 2.3   Sistemas de información  
 
+    p.mb-3 Dentro de los sistemas digitales de gestión de la información que se manejan actualmente en los procesos de importación y exportación de una manera simulada al sector real, se tienen los siguientes:
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")
         .tabla-a.color-secundario.mb-5 
